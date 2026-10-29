@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shoptify / component lab</title>
+<link rel="stylesheet" href="shoptify-tokens.css">
+<link rel="stylesheet" href="components.css">
+<style>
+  body { margin:0; padding:56px 40px 96px 104px; background:var(--st-paper); color:var(--st-ink); font-family:var(--st-font-ui); }
+  .lab { max-width: 1040px; margin: 0 auto; display:grid; gap:64px; }
+  .lab > header { display:grid; gap:16px; border-bottom:1px solid var(--st-rule); padding-bottom:28px; }
+  .lab h2 { font-family:var(--st-font-display); font-size:13px; letter-spacing:.02em; margin:0 0 20px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:24px; }
+  .lockup-demo { background:var(--st-black); color:var(--st-paper); padding:40px; }
+  .lockup-demo .st-lockup { background:var(--st-black); border-color:var(--st-rule-invert); }
+  .lockup-demo .st-lockup__index { border-color:var(--st-rule-invert); }
+  .lockup-demo .st-meta { color:rgba(247,247,238,.55); }
+  .lockup-demo .st-narrative { color:var(--st-paper); }
+</style>
+</head>
+<body>
+<aside class="st-rail" aria-label="Chapter rail demo">
+  <button class="st-rail__item" aria-current="true">I</button>
+  <button class="st-rail__item">II</button>
+  <button class="st-rail__item">III</button>
+  <button class="st-rail__item">IV</button>
+  <button class="st-rail__item">V</button>
+</aside>
+
+<div class="lab">
+  <header>
+    <p class="st-meta">Shoptify / component lab</p>
+    <h1 class="st-display st-display--xl">Patterns<span class="st-lockup__dot">.</span></h1>
+    <p class="st-narrative" style="max-width:28ch">Three reusable pieces, rebuilt from the teardown — not copied from the site.</p>
+  </header>
+
+  <section>
+    <h2>01 / Feature card</h2>
+    <div class="grid">
+      <article class="st-feature">
+        <span class="st-meta st-feature__kicker">Online</span>
+        <h3 class="st-feature__title">Test and time your launches with Rollouts</h3>
+        <p class="st-feature__body">Schedule theme changes and A/B test with Rollouts, built directly into the admin. The card borrows the source's two-role typography: display for the claim, UI text for the explanation.</p>
+        <a class="st-feature__link" href="#">Read help doc ↗</a>
+      </article>
+      <article class="st-feature">
+        <span class="st-meta st-feature__kicker">Developer</span>
+        <h3 class="st-feature__title">Build commerce agents</h3>
+        <p class="st-feature__body">Bring native shopping into AI conversations with access to the Shopify Catalog API. Same component, no variant flags — the content does the work.</p>
+        <a class="st-feature__link" href="#">Read the docs ↗</a>
+      </article>
+      <article class="st-feature">
+        <span class="st-meta st-feature__kicker">Retail</span>
+        <h3 class="st-feature__title">Connections that never drop</h3>
+        <p class="st-feature__body">Plug in card readers, printers and scanners for the strongest, most reliable connection. Hairline rule above, no shadow, no card chrome.</p>
+        <a class="st-feature__link" href="#">See hardware ↗</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="lockup-demo">
+    <h2 style="color:var(--st-paper)">02 / Editorial lockup</h2>
+    <div class="st-lockup">
+      <div class="st-lockup__index">
+        <span class="st-meta">Chapter III — Online</span>
+        <span class="st-meta">23 updates</span>
+      </div>
+      <h3 class="st-display st-lockup__word" style="font-size:clamp(3rem,8vw,6rem)">Online</h3>
+      <p class="st-narrative">Validate store changes with A/B testing and an AI tool that simulates shopping behavior.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>03 / States</h2>
+    <div class="grid">
+      <div class="st-skeleton" style="height:120px"></div>
+      <div class="st-empty">Empty state — no assets match this filter.</div>
+      <div class="st-empty" style="border-style:solid;border-color:var(--st-accent);color:var(--st-accent)">Error state — preview unavailable.</div>
+    </div>
+  </section>
+</div>
+</body>
+</html>

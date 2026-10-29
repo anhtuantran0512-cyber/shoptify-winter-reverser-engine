@@ -1,0 +1,4146 @@
+{
+  "capturedAt": "2026-10-29T08:43:00.387Z",
+  "url": "https://www.shopify.com/editions/winter2026",
+  "title": "Shopify Editions | Winter '26",
+  "meta": {
+    "description": "The commerce renaissance is here. Explore 150+ product updates across AI, retail, and more.",
+    "ogImage": "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/share.png?v=1765212809"
+  },
+  "hero": {
+    "h1": [
+      "Shopify EditionsWinter '26"
+    ]
+  },
+  "nav": [
+    "Skip to main content",
+    "Shopify Editions Winter '26",
+    "Shopify.com",
+    "Start for free",
+    "Sidekick",
+    "Agentic",
+    "Online",
+    "Retail",
+    "Marketing",
+    "Checkout",
+    "Operations",
+    "Shop app",
+    "B2B",
+    "Finance",
+    "Shipping",
+    "Developer",
+    "Terms of Service",
+    "Privacy Policy",
+    "Fall ’26Exponential",
+    "Spring ’26Everywhere",
+    "Summer ’25Horizons",
+    "View all Editions",
+    "The Renaissance Edition"
+  ],
+  "footer": "",
+  "sections": [
+    {
+      "id": "sidekick",
+      "kicker": "Sidekick",
+      "title": "Sidekick",
+      "lead": "The AI-powered Shopify expert who's just as obsessed with your business as you are.",
+      "text": "SidekickThe AI-powered Shopify expert who's just as obsessed with your business as you are.Play VideoInsights, proactively deliveredSmart suggestionsSidekick Pulse delivers personalized recommendations and next steps for your business using market trends and data from your store.Read help docComplexity, delegatedCustom app generationGet Sidekick to build custom apps designed specifically for your business needs.Read help docCreate an app that recommends which products I need to reorder.Create a task tracker for my whole team.Create an app that checks returns and cancellation eligibility for orders.Create an event prep app that generates discounted checkout links for selected products.Create a bulk B2B company importer that uploads companies from a CSV file.Create an app that recommends which products I need to reorder.Create a task tracker for my whole team.Create an app that checks returns and cancellation eligibility for orders.Create an event prep app that generates discounted checkout links for selected products.Create a bulk B2B company importer that uploads companies from a CSV file.Workflow automationsDescribe the workflow you want to automate, and Sidekick will build it in the Shopify Flow app.Get appCustom analytics reportsSidekick can generate custom reports and data visualizations directly in the ShopifyQL query editor.Read help docSegmentation supportSidekick can help you build segments or generate them from scratch.Read help docDesigns, refinedGenerate theme editsTell Sidekick the specific design updates you want and watch it adjust your theme instantly.Read help docStudio-quality photosPrompt Sidekick to change image backgrounds, add or remove elements, and expand canvas size.Read help docMobile image editorTurn any image into a highly polished product shot with Sidekick using the Shopify mobile app file editor.Read help docEmail editingSidekick can help you edit emails in the Shopify Messaging app email editor.Read help docTedious tasks, simplifiedShortcuts for promptsTurn your Sidekick prompts into reusable Skills, then share your favorites with the community and discover new ones to try.Read help doc1/editionsWalk me through the latest Editions updates most relevant to my store.Try it with Sidekick1/seo-optimizationTake my top-selling product and optimize it for SEO.Try it with Sidekick1/monthly-snapshotAnalyze my store's performance for the last 30 days.Try it with Sidekick1/promo-setupSet up a complete promotion campaign.Try it with Sidekick1/retention-checkHelp me understand my customer retention and repeat purchase patterns.Try it with Sidekick1/win-backCreate a customer segment to re-engage customers who've gone quiet.Try it with Sidekick1/inventory-checkAnalyze my inventory and flag what needs attention.Try it with Sidekick1/brand-imageCreate a beautiful lifestyle image for Instagram featuring my top products.Try it with Sidekick1/email-campaignBuild an effective email marketing campaign.Try it with Sidekick1/marketing-mixHelp me optimize my ad spend by analyzing channel performance.Try it with Sidekick1/product-deep-diveAnalyze my top-selling product with a full performance picture and a high-impact recommendation.Try it with Sidekick1/checkout-dropsFind out why customers are abandoning at checkout.Try it with Sidekick1/bundle-finderDiscover which products I should bundle together to increase average order value.Try it with Sidekick1/discount-strategyAnalyze how my discount codes are actually performing and if I'm leaving money on the table.Try it with Sidekick1/build-collectionsOrganize my products into smart collections that help customers find what they want.Try it with Sidekick1/social-postsCreate social media content to promote my top-selling product.Try it with Sidekick1/return-patternsAnalyze my returns and refunds to find patterns that are costing me money.Try it with Sidekick1/new-buyerSet up an automated welcome email sequence to convert first-time buyers into repeat customers.Try it with Sidekick1/gift-guideCreate a gift guide with a dedicated landing page.Try it with Sidekick1/go-globalAnalyze if I should expand internationally and help me set it up.Try it with SidekickMulti-step task completionPartner with Sidekick on more complex tasks now that it can plan, write to-do lists, and take on multiple actions.Read help docVoice-powered mobile chatSpeak with Sidekick on the go, right in the Shopify mobile app.Read help docWide-modeSidekick goes full screen so you can tackle complex tasks with more room to work.App discoverySidekick can help you find, compare, and install apps.Target selectionSidekick gives contextual answers when clicking on specific areas of the admin.Better memorySidekick remembers your chats and unique user preferences.Quick company creationSidekick can easily create B2B companies.Money managementSidekick checks your Shopify Balance and can make transfers with your approval.Block generation for all themesSidekick can create custom blocks in any theme from the Shopify Theme Store.Back to navigation",
+      "groupLabels": [
+        "Insights, proactively delivered",
+        "Complexity, delegated",
+        "Designs, refined",
+        "Tedious tasks, simplified"
+      ],
+      "features": [
+        {
+          "title": "Smart suggestions",
+          "description": "Sidekick Pulse delivers personalized recommendations and next steps for your business using market trends and data from your store.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-pulseDesktopPoster-desktop.webp"
+          ]
+        },
+        {
+          "title": "Custom app generation",
+          "description": "Get Sidekick to build custom apps designed specifically for your business needs.",
+          "extra": [
+            "Create an app that recommends which products I need to reorder.",
+            "Create a task tracker for my whole team.",
+            "Create an app that checks returns and cancellation eligibility for orders."
+          ],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/generate-apps"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/apps-bg-image.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/Rectangle_240654805.png"
+          ]
+        },
+        {
+          "title": "Workflow automations",
+          "description": "Describe the workflow you want to automate, and Sidekick will build it in the Shopify Flow app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/flow"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/default_abdd996f-1b4e-44a5-bfcc-8addca857894.png"
+          ]
+        },
+        {
+          "title": "Custom analytics reports",
+          "description": "Sidekick can generate custom reports and data visualizations directly in the ShopifyQL query editor.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/shopifyql-editor/generate-shopifyql-queries"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/en_4608c98d-d4f7-4d35-8b94-e83258e20e54.png"
+          ]
+        },
+        {
+          "title": "Segmentation support",
+          "description": "Sidekick can help you build segments or generate them from scratch.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/generate-content"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-u2poster_12_9.webp"
+          ]
+        },
+        {
+          "title": "Generate theme edits",
+          "description": "Tell Sidekick the specific design updates you want and watch it adjust your theme instantly.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/default_ee658e76-0d9b-46c9-b479-5baab424fb97.png"
+          ]
+        },
+        {
+          "title": "Studio-quality photos",
+          "description": "Prompt Sidekick to change image backgrounds, add or remove elements, and expand canvas size.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/generate-content"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-u8poster_12_9.webp"
+          ]
+        },
+        {
+          "title": "Mobile image editor",
+          "description": "Turn any image into a highly polished product shot with Sidekick using the Shopify mobile app file editor.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/mobile"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/shopify-magic/media-generation"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/en_3a493a1f-2575-43b6-9e6e-22033556b139.png"
+          ]
+        },
+        {
+          "title": "Email editing",
+          "description": "Sidekick can help you edit emails in the Shopify Messaging app email editor.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shopify-messaging"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/manual/shopify-admin/productivity-tools/sidekick/generate-content"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/u16poster_desktop.webp"
+          ]
+        },
+        {
+          "title": "Shortcuts for prompts",
+          "description": "Turn your Sidekick prompts into reusable Skills, then share your favorites with the community and discover new ones to try.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/skills"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/emoji3.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/emoji6.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/emoji2.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/emoji1.png"
+          ]
+        },
+        {
+          "title": "Multi-step task completion",
+          "description": "Partner with Sidekick on more complex tasks now that it can plan, write to-do lists, and take on multiple actions.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/en_a158fbbf-7e97-4014-9008-9eb7a719f84a.png"
+          ]
+        },
+        {
+          "title": "Voice-powered mobile chat",
+          "description": "Speak with Sidekick on the go, right in the Shopify mobile app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/mobile"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/set-up"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/default_be7aaa86-31c5-433d-aae2-5b361372ccc6.png"
+          ]
+        },
+        {
+          "title": "Wide-mode",
+          "description": "Sidekick goes full screen so you can tackle complex tasks with more room to work.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/set-up"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "App discovery",
+          "description": "Sidekick can help you find, compare, and install apps.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Target selection",
+          "description": "Sidekick gives contextual answers when clicking on specific areas of the admin.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/set-up"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Better memory",
+          "description": "Sidekick remembers your chats and unique user preferences.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Quick company creation",
+          "description": "Sidekick can easily create B2B companies.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/b2b/companies-and-customers/creating-companies"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Money management",
+          "description": "Sidekick checks your Shopify Balance and can make transfers with your approval.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/balance"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Block generation for all themes",
+          "description": "Sidekick can create custom blocks in any theme from the Shopify Theme Store.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-store/themes/customizing-themes/theme-editor/shopify-magic/generate-blocks"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "linkCount": 24,
+      "links": [
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/generate-apps"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/flow"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/shopifyql-editor/generate-shopifyql-queries"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/generate-content"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/generate-content"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/mobile"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/shopify-magic/media-generation"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shopify-messaging"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/manual/shopify-admin/productivity-tools/sidekick/generate-content"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/skills"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/mobile"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/set-up"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/set-up"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/set-up"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/b2b/companies-and-customers/creating-companies"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/sidekick/help-and-guidance"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/balance"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-store/themes/customizing-themes/theme-editor/shopify-magic/generate-blocks"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/preview_images/620a0d8735da4d97b040b1cd98693898.thumbnail.0000000000.jpg",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-pulseDesktopPoster-desktop.webp",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/apps-bg-image.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/Rectangle_240654805.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/default_abdd996f-1b4e-44a5-bfcc-8addca857894.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/en_4608c98d-d4f7-4d35-8b94-e83258e20e54.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-u2poster_12_9.webp",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/default_ee658e76-0d9b-46c9-b479-5baab424fb97.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-u8poster_12_9.webp",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/en_3a493a1f-2575-43b6-9e6e-22033556b139.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/u16poster_desktop.webp",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/emoji3.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/emoji6.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/emoji2.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/emoji1.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/emoji5.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/emoji4.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/emoji7.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/ren-anton.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/en_a158fbbf-7e97-4014-9008-9eb7a719f84a.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/default_be7aaa86-31c5-433d-aae2-5b361372ccc6.png"
+      ],
+      "altText": [],
+      "canvases": 0,
+      "heightPx": 7946
+    },
+    {
+      "id": "agentic",
+      "kicker": "Agentic",
+      "title": "Agentic",
+      "lead": "Sell directly in AI chats with built-in tools that syndicate your products to every AI platform.",
+      "text": "AgenticSell directly in AI chats with built-in tools that syndicate your products to every AI platform.Shopify Agentic StorefrontsManage how your brand appears to the millions of users shopping in AI chats. Your products are discoverable right in ChatGPT, Copilot, and Perplexity, with other channels coming soon.Read help docPlay VideoAgentic StorefrontsSet up your data once and Shopify Agentic Storefronts will surface your products to AI chats everywhere.Back to navigation",
+      "groupLabels": [],
+      "features": [
+        {
+          "title": "Shopify Agentic Storefronts",
+          "description": "Manage how your brand appears to the millions of users shopping in AI chats. Your products are discoverable right in ChatGPT, Copilot, and Perplexity, with other channels coming soon.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/agentic-storefronts"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/chatgptdesktopposter_12_10.webp"
+          ]
+        },
+        {
+          "title": "Agentic Storefronts",
+          "description": "Set up your data once and Shopify Agentic Storefronts will surface your products to AI chats everywhere.",
+          "extra": [],
+          "cta": [],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/preview_images/5aa1f17e22044052af94fde4bb1d052c.thumbnail.0000000000.jpg"
+          ]
+        }
+      ],
+      "linkCount": 2,
+      "links": [
+        {
+          "label": "",
+          "href": "https://www.shopify.com/agentic-storefronts"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/chatgptdesktopposter_12_10.webp",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/preview_images/5aa1f17e22044052af94fde4bb1d052c.thumbnail.0000000000.jpg"
+      ],
+      "altText": [],
+      "canvases": 0,
+      "heightPx": 2326
+    },
+    {
+      "id": "online",
+      "kicker": "Online",
+      "title": "Online",
+      "lead": "Validate store changes with A/B testing and an AI tool that simulates shopping behavior.",
+      "text": "OnlineValidate store changes with A/B testing and an AI tool that simulates shopping behavior.Test and time your launches with RolloutsSchedule theme changes and A/B test with Rollouts, built directly into the admin.Read help docShopify SimGym appSimulate shopper behavior with AI agents that use data from billions of purchases, and get actionable recommendations before going live.Get appManage store details in the theme editorMake changes to products, collections, markets, metafields, and more, all without leaving your workflow in the theme editor and across the admin.Read help docTheme generation on mobileDesign your store right from the Shopify mobile app by generating a theme, previewing it, and publishing on the go.Read help docSell on WordPressTurn your WordPress site into an online store by adding products, collections, a cart, and checkout with the Shopify plugin.Read help docOver 250 Horizon theme improvementsGet new animations, interactive sections, faster performance, and more when using Horizon.2048 variants per productCreate products with up to 2048 variants to manage and merchandise more diverse catalogs.Unlisted product statusHide products from search results, collections, and more, while keeping them accessible with a direct URL.Collections improvementsDuplicate collections and exclude products from smart collections using conditional logic.Automatic discounts for eligible customersRun targeted promotions by creating automatic discounts that target specific customers, such as VIPs.Compare-at prices in catalogsSet up compare-at prices directly in your admin without CSV imports or APIs.Combine bundle optionsCombine options, such as size and length, in the Shopify Bundles app.Unit pricing for allDisplay prices by weight, volume, length, or quantity in metric, imperial, or counts, now available globally.Vibe code with LovableSpin up a Shopify store using Lovable that includes products, inventory, analytics, checkout, and more.AI-powered domain discoveryGet suggestions for unique and available domain names from AI. English only.Improved theme discoveryFind a theme with improved search, more precise industry filters, and templates with less manual setup.AI-generated theme before signupDescribe what you want to sell and AI will generate a custom store, even without a Shopify account.Autofill passcode on iOS 26Customers can sign into their account without leaving the browser using Apple's iOS 26 passcode autofill.Faster customer login with ShopLet recognized Shop users sign in to any Shopify store with one tap.Customer sign-in with social accountsLet customers sign in to your store with Google or Facebook.Customers can edit their email addressesAllow customers to change their email addresses themselves in their account using a one-time passcode verification.Customizable sign-in copyChange the text on your customer sign-in and one-time-passcode pages in the theme content editor.Introducing TinkerAn app where entrepreneurs can play with the latest AI tools in a single place.Get appPlay VideoBack to navigation",
+      "groupLabels": [],
+      "features": [
+        {
+          "title": "Test and time your launches with Rollouts",
+          "description": "Schedule theme changes and A/B test with Rollouts, built directly into the admin.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/markets-new/rollouts"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Shopify SimGym app",
+          "description": "Simulate shopper behavior with AI agents that use data from billions of purchases, and get actionable recommendations before going live.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/simgym"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Manage store details in the theme editor",
+          "description": "Make changes to products, collections, markets, metafields, and more, all without leaving your workflow in the theme editor and across the admin.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-store/themes/customizing-themes/theme-editor/add-and-edit-store-resources"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-B1.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U37_Integrated_theme_editor.png"
+          ]
+        },
+        {
+          "title": "Theme generation on mobile",
+          "description": "Design your store right from the Shopify mobile app by generating a theme, previewing it, and publishing on the go.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/mobile"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-store/themes/adding-themes"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-3.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U47_Theme_index_on_mobile.png"
+          ]
+        },
+        {
+          "title": "Sell on WordPress",
+          "description": "Turn your WordPress site into an online store by adding products, collections, a cart, and checkout with the Shopify plugin.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/sell-on-wordpress"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-Y.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U230_Wordpress.png"
+          ]
+        },
+        {
+          "title": "Over 250 Horizon theme improvements",
+          "description": "Get new animations, interactive sections, faster performance, and more when using Horizon.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://themes.shopify.com/collections/horizon-themes"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "2048 variants per product",
+          "description": "Create products with up to 2048 variants to manage and merchandise more diverse catalogs.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/blog/2048-variants"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Unlisted product status",
+          "description": "Hide products from search results, collections, and more, while keeping them accessible with a direct URL.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/products/details/product-details-page"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Collections improvements",
+          "description": "Duplicate collections and exclude products from smart collections using conditional logic.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/products/collections/smart-collections/create"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Automatic discounts for eligible customers",
+          "description": "Run targeted promotions by creating automatic discounts that target specific customers, such as VIPs.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/discounts/managing-discounts"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Compare-at prices in catalogs",
+          "description": "Set up compare-at prices directly in your admin without CSV imports or APIs.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/markets-new/catalogs"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Combine bundle options",
+          "description": "Combine options, such as size and length, in the Shopify Bundles app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/products/bundles/shopify-bundles"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shopify-bundles"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Unit pricing for all",
+          "description": "Display prices by weight, volume, length, or quantity in metric, imperial, or counts, now available globally.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/products/details/product-pricing/unit-pricing"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Vibe code with Lovable",
+          "description": "Spin up a Shopify store using Lovable that includes products, inventory, analytics, checkout, and more.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://lovable.dev/shopify"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "AI-powered domain discovery",
+          "description": "Get suggestions for unique and available domain names from AI. English only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/domains/add-a-domain/buying-domains"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Improved theme discovery",
+          "description": "Find a theme with improved search, more precise industry filters, and templates with less manual setup.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://themes.shopify.com/themes"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "AI-generated theme before signup",
+          "description": "Describe what you want to sell and AI will generate a custom store, even without a Shopify account.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/tools/ai-store-builder"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Autofill passcode on iOS 26",
+          "description": "Customers can sign into their account without leaving the browser using Apple's iOS 26 passcode autofill.",
+          "extra": [],
+          "cta": [],
+          "images": []
+        },
+        {
+          "title": "Faster customer login with Shop",
+          "description": "Let recognized Shop users sign in to any Shopify store with one tap.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/customers/customer-accounts/new-customer-accounts/manage"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Customer sign-in with social accounts",
+          "description": "Let customers sign in to your store with Google or Facebook.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/customers/customer-accounts/new-customer-accounts/social-sign-in"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Customers can edit their email addresses",
+          "description": "Allow customers to change their email addresses themselves in their account using a one-time passcode verification.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/customers/customer-accounts"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Customizable sign-in copy",
+          "description": "Change the text on your customer sign-in and one-time-passcode pages in the theme content editor.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-store/themes/customizing-themes/language/change-wording"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Introducing Tinker",
+          "description": "An app where entrepreneurs can play with the latest AI tools in a single place.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.tinker.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/preview_images/0dfe781a187d48cfa581ed2b1ad6a5ed.thumbnail.0000000000.jpg"
+          ]
+        }
+      ],
+      "linkCount": 24,
+      "links": [
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/markets-new/rollouts"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/simgym"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-store/themes/customizing-themes/theme-editor/add-and-edit-store-resources"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/mobile"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-store/themes/adding-themes"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/sell-on-wordpress"
+        },
+        {
+          "label": "",
+          "href": "https://themes.shopify.com/collections/horizon-themes"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/blog/2048-variants"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/products/details/product-details-page"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/products/collections/smart-collections/create"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/discounts/managing-discounts"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/markets-new/catalogs"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/products/bundles/shopify-bundles"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shopify-bundles"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/products/details/product-pricing/unit-pricing"
+        },
+        {
+          "label": "",
+          "href": "https://lovable.dev/shopify"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/domains/add-a-domain/buying-domains"
+        },
+        {
+          "label": "",
+          "href": "https://themes.shopify.com/themes"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/tools/ai-store-builder"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/customers/customer-accounts/new-customer-accounts/manage"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/customers/customer-accounts/new-customer-accounts/social-sign-in"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/customers/customer-accounts"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-store/themes/customizing-themes/language/change-wording"
+        },
+        {
+          "label": "",
+          "href": "https://www.tinker.com/"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-B1.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U37_Integrated_theme_editor.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-3.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U47_Theme_index_on_mobile.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-Y.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U230_Wordpress.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/texture-src-90.jpg",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/preview_images/0dfe781a187d48cfa581ed2b1ad6a5ed.thumbnail.0000000000.jpg"
+      ],
+      "altText": [
+        "On a mobile phone, the prompt has been filled in with \"quality skateboard gear,\" and they are ready to hit the \"Generate themes\" button.",
+        "A Wordpress editor is open and products are being added to the site."
+      ],
+      "canvases": 1,
+      "heightPx": 5232
+    },
+    {
+      "id": "retail",
+      "kicker": "Retail",
+      "title": "Retail",
+      "lead": "New in-store hardware that provides unwavering reliability.",
+      "text": "RetailNew in-store hardware that provides unwavering reliability.Not your standard hubThe POS Hub gives you the reliability of wired connections with the processing power of a computer.Shop nowConnections that never dropPlug in card readers, printers, and scanners for the strongest, most reliable connection. No pairing required.The only hub with processing powerBuilt-in software keeps data flowing between your hardware and Shopify POS.Shop nowCompatible with iPad via MFi Authentication CoprocessorPerformance powered by ARM Cortex-A7 MPU with built-in data securityBuilt-in health monitoring with automatic fault recoveryAutomatic firmware updatesRock-solid connectivity with 3 USB-A ports and 1 USB‑C portPOS Hub-compatible scannersChoose from newly integrated barcode scanners or a range of HID-compatible scanners that work with the POS Hub, iPad, and Android tablets.Visit hardware storeSubscriptions on POSAllow customers to sign up for subscriptions in store on your POS using the Shopify Subscriptions app.Read help docQuick count with POSScan and update inventory directly from your POS to keep stock accurate across channels. Exclusive to POS Pro.Read help docPOS customization in one editorCustomize the customer display, smart grid, receipts, and lock screen in a single editor.Read help docSame-day delivery with Uber DirectOffer fast local delivery for online orders with live tracking using Uber Direct on POS. Exclusive to Plus. US, Canada, and France only.Get appMarkets for retailSet unique prices and publish products per retail location and online. Exclusive to POS Pro.Retail payments in more countriesAccept in-person payments, including Tap to Pay on iPhone and Android, in Luxembourg, Switzerland, and the Czech Republic.QR code paymentsLet customers pay in store with iDeal, Swish, Twint, Mobilepay, and USDC by scanning a QR code and completing checkout on their phone.Tap to Pay in more countriesLet customers Tap to Pay on iPhone in Germany, Ireland, Spain, and New Zealand.Cartes Bancaires accepted on POSAccept Cartes Bancaires (CB) branded cards from your POS in France.Receive transfer shipments in-storeAccept or reject transfers in store using the Transfers POS extension. Exclusive to POS Pro.Customizable return receiptsCreate custom return and exchange receipts with your return policy, logo, and contact information using the Liquid editor.Better in-progress return visibilityAccurately track in-progress returns in your POS and easily cancel unfulfilled items.Refund selections on POSChoose between original payment, gift card, or store credit on a dedicated refund screen.Back to navigation",
+      "groupLabels": [],
+      "features": [
+        {
+          "title": "Not your standard hub",
+          "description": "The POS Hub gives you the reliability of wired connections with the processing power of a computer.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://hardware.shopify.com/pages/poshub"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-Fallback-Retail-Frame2-Mobile.webp",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-Fallback-Retail-Frame2-Desktop.webp"
+          ]
+        },
+        {
+          "title": "Connections that never drop",
+          "description": "Plug in card readers, printers, and scanners for the strongest, most reliable connection. No pairing required.",
+          "extra": [],
+          "cta": [],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-Fallback-Retail-Frame3-Mobile.webp",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/pos_2_compressed.webp"
+          ]
+        },
+        {
+          "title": "The only hub with processing power",
+          "description": "Built-in software keeps data flowing between your hardware and Shopify POS.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://hardware.shopify.com/pages/poshub"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/mfi.svg",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/Frame_2085655178.svg",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/health.svg",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/cloud.svg"
+          ]
+        },
+        {
+          "title": "POS Hub-compatible scanners",
+          "description": "Choose from newly integrated barcode scanners or a range of HID-compatible scanners that work with the POS Hub, iPad, and Android tablets.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/hardware/barcode-scanners/hid-scanners"
+            },
+            {
+              "label": "",
+              "href": "https://hardware.shopify.com/products/shopify-pos-hub-us-ca"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-G.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U254_Scanner_support.png"
+          ]
+        },
+        {
+          "title": "Subscriptions on POS",
+          "description": "Allow customers to sign up for subscriptions in store on your POS using the Shopify Subscriptions app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shopify-subscriptions"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/payment-management/subscriptions"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-Y.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U49_Sell_subscriptions_POS.png"
+          ]
+        },
+        {
+          "title": "Quick count with POS",
+          "description": "Scan and update inventory directly from your POS to keep stock accurate across channels. Exclusive to POS Pro.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/inventory-management/changing-inventory-quantities-pos"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-B1.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U53_Quick_count_POS_extension.png"
+          ]
+        },
+        {
+          "title": "POS customization in one editor",
+          "description": "Customize the customer display, smart grid, receipts, and lock screen in a single editor.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/customize-pos"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/b/shopify-brochure2-assets/6f0d7e6128d962253121b3aec1527854.png"
+          ]
+        },
+        {
+          "title": "Same-day delivery with Uber Direct",
+          "description": "Offer fast local delivery for online orders with live tracking using Uber Direct on POS. Exclusive to Plus. US, Canada, and France only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/uber-direct"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/flowerbg-2.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U62_Uber_Direct_POS_local.png"
+          ]
+        },
+        {
+          "title": "Markets for retail",
+          "description": "Set unique prices and publish products per retail location and online. Exclusive to POS Pro.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/markets/manage"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Retail payments in more countries",
+          "description": "Accept in-person payments, including Tap to Pay on iPhone and Android, in Luxembourg, Switzerland, and the Czech Republic.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/getting-started/setup-payment-method/shopify-payments-pos"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "QR code payments",
+          "description": "Let customers pay in store with iDeal, Swish, Twint, Mobilepay, and USDC by scanning a QR code and completing checkout on their phone.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/payment-management/accepting-local-payments"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Tap to Pay in more countries",
+          "description": "Let customers Tap to Pay on iPhone in Germany, Ireland, Spain, and New Zealand.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/payment-management/tap-to-pay-iphone"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Cartes Bancaires accepted on POS",
+          "description": "Accept Cartes Bancaires (CB) branded cards from your POS in France.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries/france/payment-methods"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Receive transfer shipments in-store",
+          "description": "Accept or reject transfers in store using the Transfers POS extension. Exclusive to POS Pro.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/inventory-management/receiving-transfers"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Customizable return receipts",
+          "description": "Create custom return and exchange receipts with your return policy, logo, and contact information using the Liquid editor.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/customize-pos/printed-receipts/receipt-code-editor"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Better in-progress return visibility",
+          "description": "Accurately track in-progress returns in your POS and easily cancel unfulfilled items.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/order-management/complete-refund-orders"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Refund selections on POS",
+          "description": "Choose between original payment, gift card, or store credit on a dedicated refund screen.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/order-management/complete-refund-orders"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "linkCount": 18,
+      "links": [
+        {
+          "label": "",
+          "href": "https://hardware.shopify.com/pages/poshub"
+        },
+        {
+          "label": "",
+          "href": "https://hardware.shopify.com/pages/poshub"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/hardware/barcode-scanners/hid-scanners"
+        },
+        {
+          "label": "",
+          "href": "https://hardware.shopify.com/products/shopify-pos-hub-us-ca"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shopify-subscriptions"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/payment-management/subscriptions"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/inventory-management/changing-inventory-quantities-pos"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/customize-pos"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/uber-direct"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/markets/manage"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/getting-started/setup-payment-method/shopify-payments-pos"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/payment-management/accepting-local-payments"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/payment-management/tap-to-pay-iphone"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries/france/payment-methods"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/inventory-management/receiving-transfers"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/customize-pos/printed-receipts/receipt-code-editor"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/order-management/complete-refund-orders"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/order-management/complete-refund-orders"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-Fallback-Retail-Frame2-Mobile.webp",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-Fallback-Retail-Frame2-Desktop.webp",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/compressed-Fallback-Retail-Frame3-Mobile.webp",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/pos_2_compressed.webp",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/mfi.svg",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/Frame_2085655178.svg",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/health.svg",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/cloud.svg",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/connectivity_15bc343f-0942-4223-b315-d760c4e83562.svg",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/pos_3_compressed.webp",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-G.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U254_Scanner_support.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-Y.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U49_Sell_subscriptions_POS.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-B1.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U53_Quick_count_POS_extension.png",
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/6f0d7e6128d962253121b3aec1527854.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/flowerbg-2.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U62_Uber_Direct_POS_local.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/texture-src-90.jpg"
+      ],
+      "altText": [
+        "A merchant view of a checkout with a tablet and barcode scanner on the counter, and below the counter the Shopify POS Hub is mounted with cables neatly plugged in.",
+        "A exploded view showing all layers of the Shopify POS Hub",
+        "A HP barcode scanner with a red light.",
+        "On the POS, there is a modal where a subscription is being added for a skate magazine.",
+        "There's a modal where items, skateboards in this example, can be added and subtracted based on the inventory count.",
+        "On the POS, the smart grid, lock screen, receipt, and customer display are being edited.",
+        "The Uber Direct app icon sits on the interface of a package of skateboard bearings being delivered in San Francisco."
+      ],
+      "canvases": 0,
+      "heightPx": 5007
+    },
+    {
+      "id": "marketing",
+      "kicker": "Marketing",
+      "title": "Marketing",
+      "lead": "Grow your sales with a first-of-its-kind product network.",
+      "text": "MarketingGrow your sales with a first-of-its-kind product network.Shopify Product NetworkFill merchandise gaps by choosing to instantly surface products from other Shopify brands in your search, collections, emails, and post-purchase pages, and earn a commission on every sale. US only.Get appPlay VideoShop Campaigns expands to the online storeAutomatically get promoted on collections, search, and post-purchase pages on other relevant Shopify stores. US only.Read help docShopify Messaging supports SMS marketingCreate, schedule, send, and track SMS marketing campaigns in the Shopify Messaging app.Get appAuto-translation for Shopify FormsAutomatically translate forms from English into 19 other languages with the Shopify Forms app.Read help docImproved segmentation template searchBrowse, search, and filter through a refreshed customer segmentation template library.Read help docTarget all audiences in one Shop CampaignLaunch a single Shop Campaign for all audiences rather than choosing between acquisition or win back. US and Canada only.Shop Campaigns on more channelsGet promoted in new ad channels, including X, Snapchat, and Bing, and only pay when customers convert. US only.Segment customers with product categoriesCreate customer segments based on product categories that they have viewed or purchased.Improved email customer segmentationStrategically target customers with intuitive segment selection and recommendations in the Shopify Messaging app.Dynamic product sections in emailsAutomatically display your best selling products or specific collections when creating emails in the Shopify Messaging app.Calendar view for messagingSchedule marketing emails and SMS in the planner and create campaigns using the recommendations section in the Shopify Messaging app.Shopify Forms marketing consentDecide how you collect marketing consent per form with the Shopify Forms app.Web pixels on customer accountsRun web pixels and first-party analytics on customer account pages to get more visibility into post-purchase behavior.Back to navigation",
+      "groupLabels": [],
+      "features": [
+        {
+          "title": "Shopify Product Network",
+          "description": "Fill merchandise gaps by choosing to instantly surface products from other Shopify brands in your search, collections, emails, and post-purchase pages, and earn a commission on every sale. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/product-network"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/preview_images/2ace8284aebc4d22901886b2323bb20d.thumbnail.0000000000.jpg"
+          ]
+        },
+        {
+          "title": "Shop Campaigns expands to the online store",
+          "description": "Automatically get promoted on collections, search, and post-purchase pages on other relevant Shopify stores. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/shop-campaigns/understanding-campaigns"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/b/shopify-brochure2-assets/228361bfc05b3d2c5260a542aa8c61c6.png"
+          ]
+        },
+        {
+          "title": "Shopify Messaging supports SMS marketing",
+          "description": "Create, schedule, send, and track SMS marketing campaigns in the Shopify Messaging app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://changelog.shopify.com/posts/shopify-messaging-now-supports-sms-marketing"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shopify-messaging"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-R.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U105_Shopify_Email_SMS_marketing.png"
+          ]
+        },
+        {
+          "title": "Auto-translation for Shopify Forms",
+          "description": "Automatically translate forms from English into 19 other languages with the Shopify Forms app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shopify-forms"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/forms-app/translation"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-Y.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U109_Forms_translations.png"
+          ]
+        },
+        {
+          "title": "Improved segmentation template search",
+          "description": "Browse, search, and filter through a refreshed customer segmentation template library.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/customers/customer-segmentation/create-customer-segments"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-B2.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U98_Search_and_filter_segmentation_templates.png"
+          ]
+        },
+        {
+          "title": "Target all audiences in one Shop Campaign",
+          "description": "Launch a single Shop Campaign for all audiences rather than choosing between acquisition or win back. US and Canada only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/shop-campaigns/understanding-campaigns"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Shop Campaigns on more channels",
+          "description": "Get promoted in new ad channels, including X, Snapchat, and Bing, and only pay when customers convert. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/shop-campaigns/understanding-campaigns"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Segment customers with product categories",
+          "description": "Create customer segments based on product categories that they have viewed or purchased.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/customers/customer-segmentation/create-customer-segments"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Improved email customer segmentation",
+          "description": "Strategically target customers with intuitive segment selection and recommendations in the Shopify Messaging app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/manual/promoting-marketing/create-marketing/shopify-messaging/email/subscriber-list-management"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shopify-messaging"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Dynamic product sections in emails",
+          "description": "Automatically display your best selling products or specific collections when creating emails in the Shopify Messaging app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/manual/promoting-marketing/create-marketing/shopify-messaging/email/create-email/templates"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shopify-messaging"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Calendar view for messaging",
+          "description": "Schedule marketing emails and SMS in the planner and create campaigns using the recommendations section in the Shopify Messaging app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/manual/promoting-marketing/create-marketing/shopify-messaging/email/create-email/create-campaigns"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shopify-messaging"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Shopify Forms marketing consent",
+          "description": "Decide how you collect marketing consent per form with the Shopify Forms app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/forms-app/settings/all-forms"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shopify-forms"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Web pixels on customer accounts",
+          "description": "Run web pixels and first-party analytics on customer account pages to get more visibility into post-purchase behavior.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://changelog.shopify.com/posts/web-pixels-load-on-customer-accounts-and-order-status-page"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "linkCount": 19,
+      "links": [
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/product-network"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/shop-campaigns/understanding-campaigns"
+        },
+        {
+          "label": "",
+          "href": "https://changelog.shopify.com/posts/shopify-messaging-now-supports-sms-marketing"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shopify-messaging"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shopify-forms"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/forms-app/translation"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/customers/customer-segmentation/create-customer-segments"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/shop-campaigns/understanding-campaigns"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/shop-campaigns/understanding-campaigns"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/customers/customer-segmentation/create-customer-segments"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/manual/promoting-marketing/create-marketing/shopify-messaging/email/subscriber-list-management"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shopify-messaging"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/manual/promoting-marketing/create-marketing/shopify-messaging/email/create-email/templates"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shopify-messaging"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/manual/promoting-marketing/create-marketing/shopify-messaging/email/create-email/create-campaigns"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shopify-messaging"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/forms-app/settings/all-forms"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shopify-forms"
+        },
+        {
+          "label": "",
+          "href": "https://changelog.shopify.com/posts/web-pixels-load-on-customer-accounts-and-order-status-page"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/preview_images/2ace8284aebc4d22901886b2323bb20d.thumbnail.0000000000.jpg",
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/228361bfc05b3d2c5260a542aa8c61c6.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-R.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U105_Shopify_Email_SMS_marketing.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-Y.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U109_Forms_translations.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-B2.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U98_Search_and_filter_segmentation_templates.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/texture-src-90.jpg"
+      ],
+      "altText": [
+        "An interface is shown where a user can select who to send SMS messages and what the message will say. Next to that interface is a phone with the SMS message.",
+        "A Shopify Form is being translated from English to French and a module shows what that form looks like in French.",
+        "A search window is open where the user searched for \"win back\" and multiple options are shown as potential options."
+      ],
+      "canvases": 0,
+      "heightPx": 3675
+    },
+    {
+      "id": "checkout",
+      "kicker": "Checkout",
+      "title": "Checkout",
+      "lead": "Convert customers with personalized checkout experiences and more payment options.",
+      "text": "CheckoutConvert customers with personalized checkout experiences and more payment options.Personalized Shop buttonThe last four digits of a customer’s saved card will appear on their Shop Pay button.Read help docCheckout and accounts customization per marketCustomize your checkout and customer account pages for different countries and B2B buyers directly in the editor.Read help docShop Pay Installments in the UKOffer Shop Pay's Buy Now, Pay Later in the UK with terms up to 24 months.Shop Pay works with Global-eUse Shop Pay in every market, with domestic orders handled by Shopify Payments and international orders processed by Global-e.Apple Pay in Shop PayApple Pay is now available as a payment method in Shop Pay.Reminders for Shop Pay subscriptionsShop Pay automatically notifies subscribers before their payment method expires.Switch to Shopify Payments with zero downtimeMove from third-party payment processors to Shopify Payments without interrupting checkout.Streamlined Shopify Payments onboardingSet up Shopify Payments faster with localized forms, clear guidance, fewer requirements, and help from AI to fill out forms.More payment methods in FranceAccept cross-border payments in France from Bancontact in Belgium, iDEAL in the Netherlands, Twint in Switzerland, Blik and Przelewy24 in Poland, MobilePay in Denmark, and EPS in Austria.Klarna in more countriesLet customers use Klarna on Shopify Payments in Belgium, Denmark, Finland, France, Switzerland, Czechia, Ireland, and Portugal.Back to navigation",
+      "groupLabels": [],
+      "features": [
+        {
+          "title": "Personalized Shop button",
+          "description": "The last four digits of a customer’s saved card will appear on their Shop Pay button.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shop.app/en/shop/shop-pay/check-out"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/b/shopify-brochure2-assets/03cf615f7c023dd5afc16904b8e4b619.png"
+          ]
+        },
+        {
+          "title": "Checkout and accounts customization per market",
+          "description": "Customize your checkout and customer account pages for different countries and B2B buyers directly in the editor.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/manual/checkout-settings/customize-checkout-configurations/markets"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-G.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U94_Markets_in_the_Checkout.png"
+          ]
+        },
+        {
+          "title": "Shop Pay Installments in the UK",
+          "description": "Offer Shop Pay's Buy Now, Pay Later in the UK with terms up to 24 months.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/payments/shop-pay-installments"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Shop Pay works with Global-e",
+          "description": "Use Shop Pay in every market, with domestic orders handled by Shopify Payments and international orders processed by Global-e.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/payments/shop-pay/activating-shop-pay"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/shop-pay"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/payments"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Apple Pay in Shop Pay",
+          "description": "Apple Pay is now available as a payment method in Shop Pay.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/payments/shop-pay/shop-pay"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/shop-pay"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Reminders for Shop Pay subscriptions",
+          "description": "Shop Pay automatically notifies subscribers before their payment method expires.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/manage-shop-store/products-and-collections"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/shop-pay"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Switch to Shopify Payments with zero downtime",
+          "description": "Move from third-party payment processors to Shopify Payments without interrupting checkout.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/payments/shopify-payments/onboarding/account-setup"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/payments"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Streamlined Shopify Payments onboarding",
+          "description": "Set up Shopify Payments faster with localized forms, clear guidance, fewer requirements, and help from AI to fill out forms.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/payments/shopify-payments/onboarding"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/payments"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "More payment methods in France",
+          "description": "Accept cross-border payments in France from Bancontact in Belgium, iDEAL in the Netherlands, Twint in Switzerland, Blik and Przelewy24 in Poland, MobilePay in Denmark, and EPS in Austria.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries/france/payment-methods"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Klarna in more countries",
+          "description": "Let customers use Klarna on Shopify Payments in Belgium, Denmark, Finland, France, Switzerland, Czechia, Ireland, and Portugal.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/payments/shopify-payments/local-payment-methods/klarna/klarna-shopify-payments"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/payments"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "linkCount": 17,
+      "links": [
+        {
+          "label": "",
+          "href": "https://help.shop.app/en/shop/shop-pay/check-out"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/manual/checkout-settings/customize-checkout-configurations/markets"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/payments/shop-pay-installments"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/payments/shop-pay/activating-shop-pay"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/shop-pay"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/payments"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/payments/shop-pay/shop-pay"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/shop-pay"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/manage-shop-store/products-and-collections"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/shop-pay"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/payments/shopify-payments/onboarding/account-setup"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/payments"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/payments/shopify-payments/onboarding"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/payments"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries/france/payment-methods"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/payments/shopify-payments/local-payment-methods/klarna/klarna-shopify-payments"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/payments"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/03cf615f7c023dd5afc16904b8e4b619.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-G.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U94_Markets_in_the_Checkout.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/texture-src-90.jpg"
+      ],
+      "altText": [
+        "A Buy with Shop button is shown and it expands to include the Mastercard logo and the last for digits of a card."
+      ],
+      "canvases": 0,
+      "heightPx": 1916
+    },
+    {
+      "id": "operations",
+      "kicker": "Operations",
+      "title": "Operations",
+      "lead": "Improve everyday workflows with flexible inventory modeling and trend-spotting analytics.",
+      "text": "OperationsImprove everyday workflows with flexible inventory modeling and trend-spotting analytics.Flexible inventory transfersReceive items from unspecified locations, edit shipments in transit, and accurately handle more real-world inventory scenarios.Read help docQuick sale in the Shopify mobile appSell in person instantly with quick sale and accept payments with Tap to Pay or payment links.Read help docUpdated metrics and widgets for Apple WatchMonitor your store from your wrist with quick access to key metrics and customizable widgets.Read help docAI-enhanced chargeback managementAuto-generate dispute summaries that include key factors like delivery tracking and your policies.Password-free loginSet up passkeys to access your store securely with your fingerprint, face, or PIN.Heatmaps in analyticsView data as a heatmap across two variables, such as sales by hour and day of the week to spot your highest selling time.Customizable top items in analyticsGet a flexible view of reports by configuring the number of items displayed in visualizations, no longer limited to five.Bot filtering in analyticsExclude bot traffic for more accurate conversion rates and cleaner data.Comprehensive inventory historyAccess full inventory adjustment history with the removal of the 180-day cap.Precise date and time controls for analyticsMonitor flash sales and product drops with filters that show data down to the minute.Flash sales with multi-location inventoryRun flash sales without overselling using inventory from multiple locations.Single-view analytics for multiple storesSee organization-wide performance in one view, then filter by store and compare metrics. Exclusive to Plus.Bin locations in the Order Printer appPick orders faster by assigning bin locations to each SKU using a CSV or the bulk editor in the Order Printer app.More order filtering capabilitiesFilter orders by custom metafields, total value, and weight for smarter fulfillment workflows in admin.Edit unfulfilled orders with dutiesDuties, taxes, and totals recalculate automatically when making changes to unfulfilled orders.Smarter safeguards for inventory updatesPrevent accidental overrides when you save bulk edits with color-coded changes, a warning, and a confirmation step.Discounts on fulfilled itemsIssue refunds by applying discounts to fulfilled products for accurate taxes and reporting.Preview workflow results in FlowTest workflows in the Shopify Flow app before going live and adjust logic without impacting real store data.Redesigned Flow editorBuild large automations in the Shopify Flow app with more workspace in the vertical layout.Cancel workflow runs in FlowStop automations by cancelling a run or multiple runs in the Shopify Flow app.Store credit email notificationsNotify customers when store credit has been issued with a customizable email.Enhanced Managed MarketsSell internationally with instant compliance checks, faster payouts, and full Harmonized System code control. US only.Back to navigation",
+      "groupLabels": [],
+      "features": [
+        {
+          "title": "Flexible inventory transfers",
+          "description": "Receive items from unspecified locations, edit shipments in transit, and accurately handle more real-world inventory scenarios.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/products/inventory/inventory-transfers/creating-and-managing-transfers"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/B4.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U143_Flexible_inventory_transfers.png"
+          ]
+        },
+        {
+          "title": "Quick sale in the Shopify mobile app",
+          "description": "Sell in person instantly with quick sale and accept payments with Tap to Pay or payment links.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-admin/shopify-app/quick-sale"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/b/shopify-brochure2-assets/26605fc719dba38d9d2a5da83312810f.png"
+          ]
+        },
+        {
+          "title": "Updated metrics and widgets for Apple Watch",
+          "description": "Monitor your store from your wrist with quick access to key metrics and customizable widgets.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/manual/shopify-admin/shopify-app/watch-app"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-R.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U133_Apple_watch_app_redesign.png"
+          ]
+        },
+        {
+          "title": "AI-enhanced chargeback management",
+          "description": "Auto-generate dispute summaries that include key factors like delivery tracking and your policies.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/payments/shopify-payments/managing-chargebacks/chargebacks-shopify-admin"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Password-free login",
+          "description": "Set up passkeys to access your store securely with your fingerprint, face, or PIN.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://accounts.shopify.com/account/security"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Heatmaps in analytics",
+          "description": "View data as a heatmap across two variables, such as sales by hour and day of the week to spot your highest selling time.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/reports-overview"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Customizable top items in analytics",
+          "description": "Get a flexible view of reports by configuring the number of items displayed in visualizations, no longer limited to five.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/custom-reports/filter-and-edit"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Bot filtering in analytics",
+          "description": "Exclude bot traffic for more accurate conversion rates and cleaner data.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/intro-to-shopify/bots/bot-filtering"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Comprehensive inventory history",
+          "description": "Access full inventory adjustment history with the removal of the 180-day cap.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/products/inventory/adjusting-inventory/adjustment-history"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Precise date and time controls for analytics",
+          "description": "Monitor flash sales and product drops with filters that show data down to the minute.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/custom-reports/time-ranges"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Flash sales with multi-location inventory",
+          "description": "Run flash sales without overselling using inventory from multiple locations.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/products/inventory/setup/selling-when-out-of-stock"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Single-view analytics for multiple stores",
+          "description": "See organization-wide performance in one view, then filter by store and compare metrics. Exclusive to Plus.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/organization-settings/analytics"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Bin locations in the Order Printer app",
+          "description": "Pick orders faster by assigning bin locations to each SKU using a CSV or the bulk editor in the Order Printer app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/products/inventory/setup/bin-locations"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shopify-order-printer"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "More order filtering capabilities",
+          "description": "Filter orders by custom metafields, total value, and weight for smarter fulfillment workflows in admin.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/fulfillment/managing-orders/viewing-orders"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Edit unfulfilled orders with duties",
+          "description": "Duties, taxes, and totals recalculate automatically when making changes to unfulfilled orders.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/fulfillment/managing-orders/editing-orders/considerations"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Smarter safeguards for inventory updates",
+          "description": "Prevent accidental overrides when you save bulk edits with color-coded changes, a warning, and a confirmation step.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/products/inventory/adjusting-inventory/bulk-editing-inventory"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Discounts on fulfilled items",
+          "description": "Issue refunds by applying discounts to fulfilled products for accurate taxes and reporting.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/fulfillment/managing-orders/editing-orders/discounts"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Preview workflow results in Flow",
+          "description": "Test workflows in the Shopify Flow app before going live and adjust logic without impacting real store data.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/blog/flow-automation-updates-2025"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/flow"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Redesigned Flow editor",
+          "description": "Build large automations in the Shopify Flow app with more workspace in the vertical layout.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/blog/flow-automation-updates-2025"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/flow"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Cancel workflow runs in Flow",
+          "description": "Stop automations by cancelling a run or multiple runs in the Shopify Flow app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/shopify-flow/manage/monitor"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/flow"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Store credit email notifications",
+          "description": "Notify customers when store credit has been issued with a customizable email.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/customers/store-credit"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Enhanced Managed Markets",
+          "description": "Sell internationally with instant compliance checks, faster payouts, and full Harmonized System code control. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/international/managed-markets/overview"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "linkCount": 26,
+      "links": [
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/products/inventory/inventory-transfers/creating-and-managing-transfers"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-admin/shopify-app/quick-sale"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/manual/shopify-admin/shopify-app/watch-app"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/payments/shopify-payments/managing-chargebacks/chargebacks-shopify-admin"
+        },
+        {
+          "label": "",
+          "href": "https://accounts.shopify.com/account/security"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/reports-overview"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/custom-reports/filter-and-edit"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/intro-to-shopify/bots/bot-filtering"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/products/inventory/adjusting-inventory/adjustment-history"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/custom-reports/time-ranges"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/products/inventory/setup/selling-when-out-of-stock"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/organization-settings/analytics"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/products/inventory/setup/bin-locations"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shopify-order-printer"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/fulfillment/managing-orders/viewing-orders"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/fulfillment/managing-orders/editing-orders/considerations"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/products/inventory/adjusting-inventory/bulk-editing-inventory"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/fulfillment/managing-orders/editing-orders/discounts"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/blog/flow-automation-updates-2025"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/flow"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/blog/flow-automation-updates-2025"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/flow"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/shopify-flow/manage/monitor"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/flow"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/customers/store-credit"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/international/managed-markets/overview"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/B4.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U143_Flexible_inventory_transfers.png",
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/26605fc719dba38d9d2a5da83312810f.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-R.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U133_Apple_watch_app_redesign.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/texture-src-90.jpg"
+      ],
+      "altText": [
+        "The quick sale button is tapped with three products selected, a checkout screen appears, and once the user confirms, a receipt of the transaction is shown.",
+        "An Apple Watch with the redesigned Shopify app that shows the total sales and the total sessions."
+      ],
+      "canvases": 0,
+      "heightPx": 2636
+    },
+    {
+      "id": "shop-app",
+      "kicker": "Shop app",
+      "title": "Shop app",
+      "lead": "Reach millions of high-intent shoppers with personalized buying experiences.",
+      "text": "Shop appReach millions of high-intent shoppers with personalized buying experiences.Dynamic storefrontsAutomatically personalize your Shop storefront with relevant products for each shopper.Read articleDeals feedHighlight discounts, price drops, and Shop Campaigns in the dedicated Deals feed in Shop.Read articleShoppable videosAdd shoppable videos to Shop and AI will optimize their distribution with built-in ranking and recommendations.Read help docCustomizable product pagesDesign your Shop product pages with custom sections, videos, and branding, then preview how they look before going live.Better product discovery in Shop MinisYour products automatically appear in immersive experiences, such as virtual try-on and outfit tracking, for relevant shoppers.Order tracking in 21 more countriesShoppers can track purchases in Germany, France, Italy, Spain, New Zealand, Mexico, Switzerland, Denmark, Belgium, Sweden, Norway, Poland, Romania, Portugal, Lithuania, the Czech Republic, the Netherlands, Austria, Finland, Estonia, and Latvia.Back to navigation",
+      "groupLabels": [],
+      "features": [
+        {
+          "title": "Dynamic storefronts",
+          "description": "Automatically personalize your Shop storefront with relevant products for each shopper.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shop"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/blog/customize-your-shop-presence"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Deals feed",
+          "description": "Highlight discounts, price drops, and Shop Campaigns in the dedicated Deals feed in Shop.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shop"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/blog/introducing-deals-feed"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-B2.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U153_Offers_in_Shop.png"
+          ]
+        },
+        {
+          "title": "Shoppable videos",
+          "description": "Add shoppable videos to Shop and AI will optimize their distribution with built-in ranking and recommendations.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shop"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/manage-shop-store/video"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/B4.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/preview_images/def37b82d2b5486a87cbf297a896f7d4.thumbnail.0000000000.jpg"
+          ]
+        },
+        {
+          "title": "Customizable product pages",
+          "description": "Design your Shop product pages with custom sections, videos, and branding, then preview how they look before going live.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/blog/customize-your-shop-presence"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/shop"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Better product discovery in Shop Minis",
+          "description": "Your products automatically appear in immersive experiences, such as virtual try-on and outfit tracking, for relevant shoppers.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shop.app/minis/"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Order tracking in 21 more countries",
+          "description": "Shoppers can track purchases in Germany, France, Italy, Spain, New Zealand, Mexico, Switzerland, Denmark, Belgium, Sweden, Norway, Poland, Romania, Portugal, Lithuania, the Czech Republic, the Netherlands, Austria, Finland, Estonia, and Latvia.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/delivery-tracking"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "linkCount": 10,
+      "links": [
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shop"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/blog/customize-your-shop-presence"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shop"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/blog/introducing-deals-feed"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shop"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/manage-shop-store/video"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/blog/customize-your-shop-presence"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/shop"
+        },
+        {
+          "label": "",
+          "href": "https://shop.app/minis/"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/shop/delivery-tracking"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-B2.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U153_Offers_in_Shop.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/B4.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/preview_images/def37b82d2b5486a87cbf297a896f7d4.thumbnail.0000000000.jpg",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/texture-src-90.jpg"
+      ],
+      "altText": [
+        "A section at the top of the Shop app shows exclusive offers."
+      ],
+      "canvases": 0,
+      "heightPx": 2079
+    },
+    {
+      "id": "b2b",
+      "kicker": "B2B",
+      "title": "B2B",
+      "lead": "Take your wholesale business global, discover new retailers, and get paid in more ways.",
+      "text": "B2BTake your wholesale business global, discover new retailers, and get paid in more ways.Shopify Collective available globallySource and sell other Shopify brands directly from the admin using Shopify Collective, now available in 35 additional countries.Read help docACH payments for B2BAccept ACH bank payments at checkout with Shopify Payments, and charge saved accounts directly from the admin. Exclusive to Plus. US only.Read help docSuppliers can discover retailersDiscover and connect with new retail partners using the Shopify Collective retailer directory.Read help docPayment requests per fulfillmentSend a separate payment request for each shipment of a multi-shipment order. Exclusive to Plus.Read help docStore credit for B2BIssue store credit to company locations from their location profile or when refunding orders.Pickup in store for B2BLet B2B customers select pick up as a delivery option at checkout.Dynamic payment terms and depositsUse third-party or custom apps powered by Shopify Functions to set dynamic payment terms and deposit requirements. Exclusive to Plus.Create rules for order reviewSet dynamic rules to determine which orders need review based on conditions like order values and products, using apps powered by Shopify Functions. Exclusive to Plus.New B2B-compatible appsOffer quote requests, custom buyer roles, shopping lists, and more using 11 apps compatible with B2B.Instant product imports for retailersCreate public price lists that let retailers import products into their stores without waiting for approval on Shopify Collective.ERP systems integrationSync companies, orders, and payment terms to NetSuite, BrightPearl, Fulfil, Sage, or Acumatica using pre-built integrations by Patchworks, Fulfil, and Kensium.Improved product import for retailersPublish imported products to all channels by default on Shopify Collective.Shopify and EDI workflows connectSync EDI purchase orders from Crstl and SPS Commerce directly with your admin as draft orders, using pre-built integrations.Horizon themes work with B2BAll Horizon themes support built-in volume pricing, quantity rules, and quick order lists.Back to navigation",
+      "groupLabels": [],
+      "features": [
+        {
+          "title": "Shopify Collective available globally",
+          "description": "Source and sell other Shopify brands directly from the admin using Shopify Collective, now available in 35 additional countries.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/collective"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/shopify-collective"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-B2.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U71_Shopify_Collective_globally_available.png"
+          ]
+        },
+        {
+          "title": "ACH payments for B2B",
+          "description": "Accept ACH bank payments at checkout with Shopify Payments, and charge saved accounts directly from the admin. Exclusive to Plus. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/payments"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/payments/shopify-payments/local-payment-methods/ach"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-R.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U75_b2b_ACH_payments.png"
+          ]
+        },
+        {
+          "title": "Suppliers can discover retailers",
+          "description": "Discover and connect with new retail partners using the Shopify Collective retailer directory.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/collective"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/shopify-collective/suppliers/discovery"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/b/shopify-brochure2-assets/786dd1f1b8096bb6116dcbf0fe12893a.png"
+          ]
+        },
+        {
+          "title": "Payment requests per fulfillment",
+          "description": "Send a separate payment request for each shipment of a multi-shipment order. Exclusive to Plus.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/fulfillment/managing-orders/payments/deferred-payments"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-G.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U79_Send_payment_requests_per_fulfillment.png"
+          ]
+        },
+        {
+          "title": "Store credit for B2B",
+          "description": "Issue store credit to company locations from their location profile or when refunding orders.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/b2b/checkout-and-orders/store-credit"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Pickup in store for B2B",
+          "description": "Let B2B customers select pick up as a delivery option at checkout.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/b2b/checkout-and-orders/shipping-methods"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Dynamic payment terms and deposits",
+          "description": "Use third-party or custom apps powered by Shopify Functions to set dynamic payment terms and deposit requirements. Exclusive to Plus.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/b2b/checkout-and-orders/payment-terms"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Create rules for order review",
+          "description": "Set dynamic rules to determine which orders need review based on conditions like order values and products, using apps powered by Shopify Functions. Exclusive to Plus.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/b2b/checkout-and-orders/draft-orders"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "New B2B-compatible apps",
+          "description": "Offer quote requests, custom buyer roles, shopping lists, and more using 11 apps compatible with B2B.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/stories/guide-selling-b2b"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Instant product imports for retailers",
+          "description": "Create public price lists that let retailers import products into their stores without waiting for approval on Shopify Collective.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/shopify-collective/suppliers/price-lists"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/collective"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "ERP systems integration",
+          "description": "Sync companies, orders, and payment terms to NetSuite, BrightPearl, Fulfil, Sage, or Acumatica using pre-built integrations by Patchworks, Fulfil, and Kensium.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/b2b/reports-and-automations/external-integrations"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Improved product import for retailers",
+          "description": "Publish imported products to all channels by default on Shopify Collective.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/online-sales-channels/shopify-collective/retailers/policies/products"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/collective"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Shopify and EDI workflows connect",
+          "description": "Sync EDI purchase orders from Crstl and SPS Commerce directly with your admin as draft orders, using pre-built integrations.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/crstl-b2b-commerce-network"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/sps-commerce"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Horizon themes work with B2B",
+          "description": "All Horizon themes support built-in volume pricing, quantity rules, and quick order lists.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://themes.shopify.com/collections/horizon-themes"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "linkCount": 20,
+      "links": [
+        {
+          "label": "",
+          "href": "https://www.shopify.com/collective"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/shopify-collective"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/payments"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/payments/shopify-payments/local-payment-methods/ach"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/collective"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/shopify-collective/suppliers/discovery"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/fulfillment/managing-orders/payments/deferred-payments"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/b2b/checkout-and-orders/store-credit"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/b2b/checkout-and-orders/shipping-methods"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/b2b/checkout-and-orders/payment-terms"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/b2b/checkout-and-orders/draft-orders"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/stories/guide-selling-b2b"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/shopify-collective/suppliers/price-lists"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/collective"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/b2b/reports-and-automations/external-integrations"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/online-sales-channels/shopify-collective/retailers/policies/products"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/collective"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/crstl-b2b-commerce-network"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/sps-commerce"
+        },
+        {
+          "label": "",
+          "href": "https://themes.shopify.com/collections/horizon-themes"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-B2.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U71_Shopify_Collective_globally_available.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-R.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U75_b2b_ACH_payments.png",
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/786dd1f1b8096bb6116dcbf0fe12893a.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-G.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U79_Send_payment_requests_per_fulfillment.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/texture-src-90.jpg"
+      ],
+      "altText": [
+        "Shoes from Japan, Germany, and England are shown as options for Shopify Collective.",
+        "The option to pay by ACH by linking a bank account is shown below the other payment options.",
+        "A search bar shows a supplier looking for skateboards to sell.",
+        "A hat, t-shirt, and skateboard are paired with their payments."
+      ],
+      "canvases": 0,
+      "heightPx": 2586
+    },
+    {
+      "id": "finance",
+      "kicker": "Finance",
+      "title": "Finance",
+      "lead": "Modern financial tools designed for growing your business and getting that coin.",
+      "text": "FinanceModern financial tools designed for growing your business and getting that coin.Continuous funding with the Shopify Capital flex accountApply once for ongoing access to funding with Shopify Capital and only pay fees on your outstanding balance. Get replenished funds, subject to approval, as you repay. US only.Read help docAutomatic transfers in Shopify BalanceSet rules in Shopify Balance to automatically split each payout across accounts, such as expenses, inventory, marketing, and savings. US only.Read help docStaff cards with spend controlsIssue Shopify Balance cards to staff and set spend controls. US only.Read help docShopify Capital in more European countriesAccess fast funding with adjustable repayment terms in the Netherlands, Spain, and Ireland with Shopify Capital.Track international profit marginsCompare actual and estimated costs by market, including duties, taxes, and shipping adjustments.Credits on USDC transactionsEarn automatic credits on every order paid with USDC, which appear in your order timeline and payouts—paid in fiat or USDC on settlement. US, Mexico, and Hong Kong only.Same-day ACH transfersSend money from your Shopify Balance account by 1pm ET to have transfers arrive the same business day. US only.Unified card disputeFile and track disputes directly from both Shopify Balance and Shopify Credit transactions lists in a clear, self-serve flow. US only.Increased Shopify Credit rewards capEarn 3% cashback on up to $250,000 in eligible purchases on your top spend category annually, and 1% after with Shopify Credit. Earn 1% for all other eligible categories. US only.Dynamic credit limitsGet access to a credit limit that automatically adjusts based on your sales, utilization, and repayments with Shopify Credit. US only.Add checks in Shopify BalanceAdd checks directly to your Shopify Balance account using the Shopify mobile app with no fees. US only.Real‑time fraud alerts for Shopify cardsGet SMS fraud alerts for suspicious activity on Shopify Balance and Shopify Credit. US only.Back to navigation",
+      "groupLabels": [],
+      "features": [
+        {
+          "title": "Continuous funding with the Shopify Capital flex account",
+          "description": "Apply once for ongoing access to funding with Shopify Capital and only pay fees on your outstanding balance. Get replenished funds, subject to approval, as you repay. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/capital"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/finance/shopify-capital/shopify-capital-flex"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/b/shopify-brochure2-assets/1bf084da109bb3fe83016948c3c88b1f.png"
+          ]
+        },
+        {
+          "title": "Automatic transfers in Shopify Balance",
+          "description": "Set rules in Shopify Balance to automatically split each payout across accounts, such as expenses, inventory, marketing, and savings. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/balance"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/manual/finance/shopify-balance/managing-account/transfers"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/B4.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U158_Automated_transfers_for_Shopify_Balance_payouts.png"
+          ]
+        },
+        {
+          "title": "Staff cards with spend controls",
+          "description": "Issue Shopify Balance cards to staff and set spend controls. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/balance"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/finance/shopify-balance/cards/card"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/Rectangle_240657548.jpg",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U163_Spend_controls_secondary_cardholders_for_Balance.png"
+          ]
+        },
+        {
+          "title": "Shopify Capital in more European countries",
+          "description": "Access fast funding with adjustable repayment terms in the Netherlands, Spain, and Ireland with Shopify Capital.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/finance/shopify-capital"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/capital"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Track international profit margins",
+          "description": "Compare actual and estimated costs by market, including duties, taxes, and shipping adjustments.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/profit-reports"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Credits on USDC transactions",
+          "description": "Earn automatic credits on every order paid with USDC, which appear in your order timeline and payouts—paid in fiat or USDC on settlement. US, Mexico, and Hong Kong only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/payments/shopify-payments/usdc-payments"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Same-day ACH transfers",
+          "description": "Send money from your Shopify Balance account by 1pm ET to have transfers arrive the same business day. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/finance/shopify-balance/managing-account/transfers"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/balance"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Unified card dispute",
+          "description": "File and track disputes directly from both Shopify Balance and Shopify Credit transactions lists in a clear, self-serve flow. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/finance/shopify-balance/managing-account/disputes/dispute-card-transactions"
+            },
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/finance/shopify-credit/disputes"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Increased Shopify Credit rewards cap",
+          "description": "Earn 3% cashback on up to $250,000 in eligible purchases on your top spend category annually, and 1% after with Shopify Credit. Earn 1% for all other eligible categories. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/finance/shopify-credit/rewards"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Dynamic credit limits",
+          "description": "Get access to a credit limit that automatically adjusts based on your sales, utilization, and repayments with Shopify Credit. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/finance/shopify-credit/manage-account"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/credit"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Add checks in Shopify Balance",
+          "description": "Add checks directly to your Shopify Balance account using the Shopify mobile app with no fees. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/manual/finance/shopify-balance/adding-checks"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/mobile"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Real‑time fraud alerts for Shopify cards",
+          "description": "Get SMS fraud alerts for suspicious activity on Shopify Balance and Shopify Credit. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/finance/shopify-credit/card-security"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/balance"
+            },
+            {
+              "label": "",
+              "href": "https://www.shopify.com/credit"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "linkCount": 22,
+      "links": [
+        {
+          "label": "",
+          "href": "https://www.shopify.com/capital"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/finance/shopify-capital/shopify-capital-flex"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/balance"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/manual/finance/shopify-balance/managing-account/transfers"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/balance"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/finance/shopify-balance/cards/card"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/finance/shopify-capital"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/capital"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/profit-reports"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/payments/shopify-payments/usdc-payments"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/finance/shopify-balance/managing-account/transfers"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/balance"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/finance/shopify-balance/managing-account/disputes/dispute-card-transactions"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/finance/shopify-credit/disputes"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/finance/shopify-credit/rewards"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/finance/shopify-credit/manage-account"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/credit"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/manual/finance/shopify-balance/adding-checks"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/mobile"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/finance/shopify-credit/card-security"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/balance"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/credit"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/1bf084da109bb3fe83016948c3c88b1f.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/B4.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U158_Automated_transfers_for_Shopify_Balance_payouts.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/Rectangle_240657548.jpg",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U163_Spend_controls_secondary_cardholders_for_Balance.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/texture-src-90.jpg"
+      ],
+      "altText": [
+        "The animation starts with an application for funding, then there's a request to withdraw money, and finally the money is withdrawn.",
+        "An interface shows a breakdown of a payout into sales tax, marketing, inventory, and savings.",
+        "A credit card is shown with an interface that breaks down the staff cards by department."
+      ],
+      "canvases": 0,
+      "heightPx": 2145
+    },
+    {
+      "id": "shipping",
+      "kicker": "Shipping",
+      "title": "Shipping",
+      "lead": "Ship confidently and cheetah-fast with more label, partner, and carrier options.",
+      "text": "ShippingShip confidently and cheetah-fast with more label, partner, and carrier options.FedEx return labelsCreate, send, and track FedEx return labels in the Shopify admin with discounted pay‑on‑scan rates. US only.Read help docDefault package per variantSet a default package for each variant to get more accurate shipping rates at checkout and buy labels faster for single‑item orders.Read help docCustom sender name on labelsChoose the sender name that appears on your shipping labels to protect privacy, satisfy legal requirements, and keep gifts discreet.More logistics partnersChoose from more third‑party fulfillment partners, including Amazon, Bigblue, DHL, GoBolt, and Mayple, and track performance in the Shopify Fulfillment Network.Expanded US and Canada cross-border labelsBuy DHL Express Delivered Duty Paid (DDP) or Delivered Duty Unpaid (DDU) and Canada Post DDP labels in Canada, and buy DHL eCommerce DDU labels in the US—directly in the admin.More global shipping carriersBuy shipping labels directly in the admin for Royal Mail in the UK, Australia Post in Australia, and DHL Express in Canada.In-progress fulfillment statusMark orders as in progress, add timeline notes, run bulk actions, and manage statuses in a redesigned fulfillment card.Back to navigation",
+      "groupLabels": [],
+      "features": [
+        {
+          "title": "FedEx return labels",
+          "description": "Create, send, and track FedEx return labels in the Shopify admin with discounted pay‑on‑scan rates. US only.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "Read help doc",
+              "href": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders/shipping-labels/buying-labels/return-labels"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-R.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U117_FedEx_One_Rate_Return_Labels_6-col.png"
+          ]
+        },
+        {
+          "title": "Default package per variant",
+          "description": "Set a default package for each variant to get more accurate shipping rates at checkout and buy labels faster for single‑item orders.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "Read help doc",
+              "href": "https://help.shopify.com/en/manual/fulfillment/setup/packaging/setting-up-packages"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/B4.png",
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U122_Variant_default_packaging.png"
+          ]
+        },
+        {
+          "title": "Custom sender name on labels",
+          "description": "Choose the sender name that appears on your shipping labels to protect privacy, satisfy legal requirements, and keep gifts discreet.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "Custom sender name on labels",
+              "href": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders/shipping-labels/managing-labels/printing-shipping-documents"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "More logistics partners",
+          "description": "Choose from more third‑party fulfillment partners, including Amazon, Bigblue, DHL, GoBolt, and Mayple, and track performance in the Shopify Fulfillment Network.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "More logistics partners",
+              "href": "https://help.shopify.com/en/manual/fulfillment/shopify-fulfillment-network/logistics-partners"
+            },
+            {
+              "label": "Shopify Fulfillment Network",
+              "href": "https://www.shopify.com/fulfillment"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Expanded US and Canada cross-border labels",
+          "description": "Buy DHL Express Delivered Duty Paid (DDP) or Delivered Duty Unpaid (DDU) and Canada Post DDP labels in Canada, and buy DHL eCommerce DDU labels in the US—directly in the admin.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "Expanded US and Canada cross-border labels",
+              "href": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders/shipping-labels/buying-labels/ddp-ddu"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "More global shipping carriers",
+          "description": "Buy shipping labels directly in the admin for Royal Mail in the UK, Australia Post in Australia, and DHL Express in Canada.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "More global shipping carriers",
+              "href": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders/shipping-labels/shipping-carriers"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "In-progress fulfillment status",
+          "description": "Mark orders as in progress, add timeline notes, run bulk actions, and manage statuses in a redesigned fulfillment card.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "In-progress fulfillment status",
+              "href": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders/single-fulfillment"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "linkCount": 8,
+      "links": [
+        {
+          "label": "Read help doc",
+          "href": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders/shipping-labels/buying-labels/return-labels"
+        },
+        {
+          "label": "Read help doc",
+          "href": "https://help.shopify.com/en/manual/fulfillment/setup/packaging/setting-up-packages"
+        },
+        {
+          "label": "Custom sender name on labels",
+          "href": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders/shipping-labels/managing-labels/printing-shipping-documents"
+        },
+        {
+          "label": "More logistics partners",
+          "href": "https://help.shopify.com/en/manual/fulfillment/shopify-fulfillment-network/logistics-partners"
+        },
+        {
+          "label": "Shopify Fulfillment Network",
+          "href": "https://www.shopify.com/fulfillment"
+        },
+        {
+          "label": "Expanded US and Canada cross-border labels",
+          "href": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders/shipping-labels/buying-labels/ddp-ddu"
+        },
+        {
+          "label": "More global shipping carriers",
+          "href": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders/shipping-labels/shipping-carriers"
+        },
+        {
+          "label": "In-progress fulfillment status",
+          "href": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders/single-fulfillment"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/BG-R.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U117_FedEx_One_Rate_Return_Labels_6-col.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/B4.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U122_Variant_default_packaging.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/texture-src-90.jpg"
+      ],
+      "altText": [
+        "A Fedex return label is paired with the shipping interface that shows the creation of a return label.",
+        "The shipping interface shows the default packaging options for each product."
+      ],
+      "canvases": 0,
+      "heightPx": 1949
+    },
+    {
+      "id": "developer",
+      "kicker": "Developer",
+      "title": "Developer",
+      "lead": "A completely new way to build for commerce with the power of AI.",
+      "text": "DeveloperA completely new way to build for commerce with the power of AI.Agentic CommerceBuild commerce agentsBring native shopping into AI conversations with access to the Shopify Catalog API and Checkout MCP, all from the new Dev Dash.Read dev docsShopify Catalog for allSearch billions of products across Shopify merchants using MCP tools or REST—and soon, select partners can access a direct catalog feed.Read dev docsCheckout Kit for webBring a merchant’s checkout to any agentic flow in a browser with a JS library that renders in a pop-up or a new tab—also available in Swift, Android, and React Native.Read dev docsSidekickSidekick recommends appsMerchants can find and install apps directly in Sidekick, with Built for Shopify apps receiving higher prioritization and clear badges.Learn moreSidekick app extensionsBuild Sidekick app extensions that let merchants access your app's data and invoke app actions from Sidekick.Read dev docsApps + ThemesImproved discovery for Built for Shopify appsBuilt for Shopify apps are featured more prominently on the Shopify App Store homepage and in recommendation sections.60-day grace period on Built for ShopifyGet 60 days to resolve issues across all automated criteria failures while retaining your Built for Shopify badge.Improved theme discoveryThemes are more discoverable with embedded demos and smarter filters.Clearer app store requirementsGet your app review-ready faster with streamlined requirements and clearer documentation.Regional admin performance data optimizationAccess regional Web Vitals data to pinpoint slowdowns and optimize your app to deliver faster admin experiences.Platform + ToolsPlay VideoBuild with full MCP supportCode faster with Shopify Dev MCP that validates every API call in real-time, catches errors before you see them, and generates production-ready code.Read dev docsSeamless workflows with the Admin Intents APILaunch admin workflows for creating, editing, and managing Shopify resources with a single line of code.Read articleFaster bulk operationsShopify's bulk operations API now supports all Admin API mutations, accepts 100MB files, and runs up to five concurrent operations.Read dev docsImproved metafields and metaobjectsMetafields and metaobjects render faster on storefronts, support richer query filtering, allow higher entry limits, and more.Introducing TangleBuild ML and data pipelines collaboratively with an open-source experimentation platform that comes with a powerful visual editor.Learn moreBinary testing in Shopify FunctionsBuild tests from real production data and catch breaking changes before they hit production when you migrate from JavaScript to Rust.Shopify Dev MCP supports Hydrogen and Shopify APIAccess documentation for Hydrogen and Storefront API in the Dev MCP to build headless Shopify stores with AI coding tools such as Cursor or Claude Code.Liquid support in Shopify Dev MCPValidate Liquid code in Shopify Dev MCP to catch errors before deployment.Shopify Dev MCP supports POS UI extensionsBuild POS UI extensions faster with AI using Shopify Dev MCP, which pulls right from the POS dev docs, generates valid code, and cuts errors.Shopify Functions replace Scripts in 2026In June 2026, Shopify Functions will replace Scripts with faster execution and increased parity for a safer migration.Dev Assistant supports all of ShopifyGet access to the full developer platform with the upgraded Dev Assistant, which surfaces targeted documentation and code examples based on what you're trying to build.Enhanced security with token expiryUse expiring tokens to make your app more secure with OAuth 2.0-compliant token refresh, including programmatic exchange for existing non-expiring tokens.Enhanced Dev ConsoleClean up dev previews, uninstall apps, and open the Dev Dashboard directly from the console.Multi-environment theme commandsExecute theme commands in the CLI for multiple environments simultaneously, enabling bulk operations across different stores.Polaris unified UI components expand to POSBuild POS extensions with Polaris web components using a standardized, web-component-based UI system.Discount code rejection with Shopify FunctionsUse Shopify Functions to reject discount codes and include an associated custom message displayed at checkout.Storefronts + ExtensionsShop Minis SDKBuild Shop Minis to create immersive shopping experiences, such as virtual try-on and live shopping, and distribute them directly to Shop app users.Learn morePOS Extensions Storage APIReduce API calls and improve performance with persistent, namespaced storage inside the POS app.Read dev docsUnlisted product status valueBuild support for the unlisted product status to hide products from search results, collections, and more, while keeping them accessible with a direct URL.Combine bundle options with the Admin APIUse the Admin API to let merchants combine bundle options, such as size and length, into one selection.Due on fulfillment terms for pre-ordersPre-order apps support customers paying a deposit at checkout and the remaining balance when the order is fulfilled.New code editor for themesGet Liquid code editing with multi-file search, syntax highlighting, intelligent autocomplete, keyboard shortcuts, side-by-side version diffs, and more.Storefront MCP works with Hydrogen storesUse Storefront MCP with Hydrogen to build agents that can tailor recommendations, assist with cart building, and hand off to checkout.AI discovery for headless storesHeadless stores are discoverable in AI chats like ChatGPT and Perplexity by automatically being part of the Shopify Catalog.Nested cart linesBuild support for merchants to nest cart lines in cart, checkout, and post-purchase views for product add-ons, such as extended warranties.Native wallet buttons before checkoutAdd Shop Pay and Apple Pay wallet buttons on PDP and Cart pages in mobile apps using the Checkout Kit.Discount eligibility context fieldNatively support targeted automatic discounts for customer segments, like VIP, without needing Shopify Scripts.Payment requirement removed on subscriptionsImport existing subscribers via API, even if their payment method is missing or expired—just collect or update the details later.POS UI extensions for cart line itemsAdd contextual actions to an individual POS cart line item, such as dynamic bundles.Variant customization on POSSell customizable products in person by adding the same variant to the cart with different configurations, which you can see split into distinct lines.More POS UI extension toolsBuild POS UI extensions faster with stable hot reloading, clear in-app build errors, QR deep links, and a new in-app dev console.POS UI extensions open native screensOpen native POS products, orders, customers, draft orders, and staff details in modals that respect staff permissions right in UI extensions.Cart Transform Function API on POSUse this API to let the POS dynamically expand, merge, or update cart lines for bundles, custom pricing, and rich cart customization.Customize subscriptions with POS UI ExtensionsAdd and manage subscriptions with detailed line item data using the Cart APIs in POS UI Extensions 2025-10.Transfers APIModel real-world transfers, including those from locations not tracked in Shopify, with the Transfers API.Return APIs with payment referenceSimplify reconciliation for returns through a direct reference to the transaction with the Return API.Customer Account API supports third-party appsUse Shopify customer authentication to give customers a unified sign-in experience and securely access customer data.Store credit refunds in returns APIRefund to store credit through the return and order cancellation APIs, even when store credit was not the original payment method.ShopifyQL API for Shopify AnalyticsBuild analytics features faster by querying thousands of combinations of Shopify Analytics metrics and dimensions.Returns processing APIControl when return sales are recorded in Shopify using a new processing mutation.Improved onboarding flows with App BridgeUse shopify.app.extensions() to check which of your checkout and customer account extensions are active.Inventory adjustments referenceAdd referenceDocumentUri to adjustments to show your app in admin history, create audit‑ready trails, and trace changes to its source.Payment terms and deposit configurationsUse the paymentTermsSet operation in Shopify Payment Customization Functions to dynamically change payment terms and deposit requirements. Exclusive to Plus.Order review operation in Shopify FunctionsDetermine which B2B orders require review based on specific conditions using the orderReviewAdd operation in payment customization. Exclusive to Plus.Back to navigation",
+      "groupLabels": [
+        "Agentic Commerce",
+        "Sidekick",
+        "Apps + Themes",
+        "Platform + Tools",
+        "Storefronts + Extensions"
+      ],
+      "features": [
+        {
+          "title": "Build commerce agents",
+          "description": "Bring native shopping into AI conversations with access to the Shopify Catalog API and Checkout MCP, all from the new Dev Dash.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "Read dev docs",
+              "href": "https://shopify.dev/docs/agents"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Shopify Catalog for all",
+          "description": "Search billions of products across Shopify merchants using MCP tools or REST—and soon, select partners can access a direct catalog feed.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "Read dev docs",
+              "href": "https://shopify.dev/docs/agents/catalog"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U271_Checkout_MCP.png"
+          ]
+        },
+        {
+          "title": "Checkout Kit for web",
+          "description": "Bring a merchant’s checkout to any agentic flow in a browser with a JS library that renders in a pop-up or a new tab—also available in Swift, Android, and React Native.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "Read dev docs",
+              "href": "http://shopify.dev/docs/storefronts/mobile/checkout-kit/web"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U183_Checkout_for_web_f222b0b3-24d2-4ee2-aff2-ebf8ffb4a766.png"
+          ]
+        },
+        {
+          "title": "Sidekick recommends apps",
+          "description": "Merchants can find and install apps directly in Sidekick, with Built for Shopify apps receiving higher prioritization and clear badges.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/built-for-shopify"
+            },
+            {
+              "label": "",
+              "href": "https://shopify.dev/changelog/app-recommendations-in-sidekick-now-available"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U226__Sidekick_app_discovery_6b57593c-579c-4a91-84af-7173ff60da83.png"
+          ]
+        },
+        {
+          "title": "Sidekick app extensions",
+          "description": "Build Sidekick app extensions that let merchants access your app's data and invoke app actions from Sidekick.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/sidekick"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U253_-_App_intents_for_Sidekick.png"
+          ]
+        },
+        {
+          "title": "Improved discovery for Built for Shopify apps",
+          "description": "Built for Shopify apps are featured more prominently on the Shopify App Store homepage and in recommendation sections.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/changelog/built-for-shopify-apps-get-priority-visibility-across-the-shopify-app-store"
+            },
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/built-for-shopify"
+            },
+            {
+              "label": "",
+              "href": "https://apps.shopify.com/"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "60-day grace period on Built for Shopify",
+          "description": "Get 60 days to resolve issues across all automated criteria failures while retaining your Built for Shopify badge.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/changelog/built-for-shopify-grace-period-update-for-uninstall-and-app-embed-requirements"
+            },
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/built-for-shopify"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Improved theme discovery",
+          "description": "Themes are more discoverable with embedded demos and smarter filters.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/changelog/improved-theme-discovery-and-merchandising-on-the-shopify-theme-store"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Clearer app store requirements",
+          "description": "Get your app review-ready faster with streamlined requirements and clearer documentation.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/launch/shopify-app-store/app-store-requirements"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Regional admin performance data optimization",
+          "description": "Access regional Web Vitals data to pinpoint slowdowns and optimize your app to deliver faster admin experiences.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/performance/admin-installation-oauth"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Build with full MCP support",
+          "description": "Code faster with Shopify Dev MCP that validates every API call in real-time, catches errors before you see them, and generates production-ready code.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/devmcp"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/preview_images/f880db5d8462441482ecbc2437cacf5d.thumbnail.0000000000.jpg"
+          ]
+        },
+        {
+          "title": "Seamless workflows with the Admin Intents API",
+          "description": "Launch admin workflows for creating, editing, and managing Shopify resources with a single line of code.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://www.shopify.com/partners/blog/introducing-admin-intents-keep-merchants-in-your-app-while-managing-shopify-resources"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U229_Admin_Intents_API.png"
+          ]
+        },
+        {
+          "title": "Faster bulk operations",
+          "description": "Shopify's bulk operations API now supports all Admin API mutations, accepts 100MB files, and runs up to five concurrent operations.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/usage/bulk-operations/imports"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U191_Faster_bulk_data_imports.png"
+          ]
+        },
+        {
+          "title": "Improved metafields and metaobjects",
+          "description": "Metafields and metaobjects render faster on storefronts, support richer query filtering, allow higher entry limits, and more.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/metafields/about-metafields"
+            },
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/metaobjects/about-metaobjects"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U223_upgrades_for_metafields.png"
+          ]
+        },
+        {
+          "title": "Introducing Tangle",
+          "description": "Build ML and data pipelines collaboratively with an open-source experimentation platform that comes with a powerful visual editor.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://tangleml.com/"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U267_Tangle.png"
+          ]
+        },
+        {
+          "title": "Binary testing in Shopify Functions",
+          "description": "Build tests from real production data and catch breaking changes before they hit production when you migrate from JavaScript to Rust.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/functions/test-debug-functions"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Shopify Dev MCP supports Hydrogen and Shopify API",
+          "description": "Access documentation for Hydrogen and Storefront API in the Dev MCP to build headless Shopify stores with AI coding tools such as Cursor or Claude Code.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://hydrogen.shopify.dev/update/december-2025"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Liquid support in Shopify Dev MCP",
+          "description": "Validate Liquid code in Shopify Dev MCP to catch errors before deployment.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/devmcp"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Shopify Dev MCP supports POS UI extensions",
+          "description": "Build POS UI extensions faster with AI using Shopify Dev MCP, which pulls right from the POS dev docs, generates valid code, and cuts errors.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/changelog/dev-mcp-now-supports-pos-ui-extensions"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Shopify Functions replace Scripts in 2026",
+          "description": "In June 2026, Shopify Functions will replace Scripts with faster execution and increased parity for a safer migration.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/functions/migrating-from-shopify-scripts"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Dev Assistant supports all of Shopify",
+          "description": "Get access to the full developer platform with the upgraded Dev Assistant, which surfaces targeted documentation and code examples based on what you're trying to build.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Enhanced security with token expiry",
+          "description": "Use expiring tokens to make your app more secure with OAuth 2.0-compliant token refresh, including programmatic exchange for existing non-expiring tokens.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/offline-access-tokens"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Enhanced Dev Console",
+          "description": "Clean up dev previews, uninstall apps, and open the Dev Dashboard directly from the console.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/cli-for-apps/test-apps-locally"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Multi-environment theme commands",
+          "description": "Execute theme commands in the CLI for multiple environments simultaneously, enabling bulk operations across different stores.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/storefronts/themes/tools/cli/environments"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Polaris unified UI components expand to POS",
+          "description": "Build POS extensions with Polaris web components using a standardized, web-component-based UI system.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/pos-ui-extensions/2025-10-rc/polaris-web-components"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Discount code rejection with Shopify Functions",
+          "description": "Use Shopify Functions to reject discount codes and include an associated custom message displayed at checkout.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/discounts/discount-rejections"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Shop Minis SDK",
+          "description": "Build Shop Minis to create immersive shopping experiences, such as virtual try-on and live shopping, and distribute them directly to Shop app users.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shop.app/minis"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/b/shopify-brochure2-assets/c9c913c72ba45ce34cb2521bcaaefd07.png"
+          ]
+        },
+        {
+          "title": "POS Extensions Storage API",
+          "description": "Reduce API calls and improve performance with persistent, namespaced storage inside the POS app.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/pos-ui-extensions/latest/apis/storage-api"
+            }
+          ],
+          "images": [
+            "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U190_pos_extension_storage_dark.png"
+          ]
+        },
+        {
+          "title": "Unlisted product status value",
+          "description": "Build support for the unlisted product status to hide products from search results, collections, and more, while keeping them accessible with a direct URL.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/admin-graphql/2025-10/enums/ProductStatus"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Combine bundle options with the Admin API",
+          "description": "Use the Admin API to let merchants combine bundle options, such as size and length, into one selection.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/product-merchandising/bundles/add-product-fixed-bundle"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Due on fulfillment terms for pre-orders",
+          "description": "Pre-order apps support customers paying a deposit at checkout and the remaining balance when the order is fulfilled.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/purchase-options/deferred"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "New code editor for themes",
+          "description": "Get Liquid code editing with multi-file search, syntax highlighting, intelligent autocomplete, keyboard shortcuts, side-by-side version diffs, and more.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/storefronts/themes/tools/shopify-liquid-vscode"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Storefront MCP works with Hydrogen stores",
+          "description": "Use Storefront MCP with Hydrogen to build agents that can tailor recommendations, assist with cart building, and hand off to checkout.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://hydrogen.shopify.dev/update/december-2025"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "AI discovery for headless stores",
+          "description": "Headless stores are discoverable in AI chats like ChatGPT and Perplexity by automatically being part of the Shopify Catalog.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://hydrogen.shopify.dev/update/december-2025"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Nested cart lines",
+          "description": "Build support for merchants to nest cart lines in cart, checkout, and post-purchase views for product add-ons, such as extended warranties.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/product-merchandising/nested-cart-lines"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Native wallet buttons before checkout",
+          "description": "Add Shop Pay and Apple Pay wallet buttons on PDP and Cart pages in mobile apps using the Checkout Kit.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/storefronts/mobile/checkout-kit/accelerated-checkouts-overview"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Discount eligibility context field",
+          "description": "Natively support targeted automatic discounts for customer segments, like VIP, without needing Shopify Scripts.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/admin-graphql/2025-10/unions/DiscountContext"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Payment requirement removed on subscriptions",
+          "description": "Import existing subscribers via API, even if their payment method is missing or expired—just collect or update the details later.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/purchase-options/subscriptions/migrate-to-subscriptions-api/migrate-subscription-contracts"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "POS UI extensions for cart line items",
+          "description": "Add contextual actions to an individual POS cart line item, such as dynamic bundles.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/pos-ui-extensions/latest/targets/action/pos-cart-line-item-details-action-render"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Variant customization on POS",
+          "description": "Sell customizable products in person by adding the same variant to the cart with different configurations, which you can see split into distinct lines.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/process-sales-transaction"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "More POS UI extension tools",
+          "description": "Build POS UI extensions faster with stable hot reloading, clear in-app build errors, QR deep links, and a new in-app dev console.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/changelog/pos-ui-extensions-developer-experience-improvements"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "POS UI extensions open native screens",
+          "description": "Open native POS products, orders, customers, draft orders, and staff details in modals that respect staff permissions right in UI extensions.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/pos-ui-extensions/latest/target-apis/platform-apis/navigation-api"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Cart Transform Function API on POS",
+          "description": "Use this API to let the POS dynamically expand, merge, or update cart lines for bundles, custom pricing, and rich cart customization.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/functions/latest/cart-transform"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Customize subscriptions with POS UI Extensions",
+          "description": "Add and manage subscriptions with detailed line item data using the Cart APIs in POS UI Extensions 2025-10.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/changelog/subscription-selling-plan-support-with-pos-ui-extensions"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Transfers API",
+          "description": "Model real-world transfers, including those from locations not tracked in Shopify, with the Transfers API.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/admin-graphql/latest/mutations/inventorytransfercreate"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Return APIs with payment reference",
+          "description": "Simplify reconciliation for returns through a direct reference to the transaction with the Return API.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/admin-graphql/latest/queries/return"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Customer Account API supports third-party apps",
+          "description": "Use Shopify customer authentication to give customers a unified sign-in experience and securely access customer data.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/storefronts/headless/building-with-the-customer-account-api/authenticate-customers"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Store credit refunds in returns API",
+          "description": "Refund to store credit through the return and order cancellation APIs, even when store credit was not the original payment method.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/admin-graphql/latest/objects/SuggestedStoreCreditRefund"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "ShopifyQL API for Shopify Analytics",
+          "description": "Build analytics features faster by querying thousands of combinations of Shopify Analytics metrics and dimensions.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/shopifyql"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Returns processing API",
+          "description": "Control when return sales are recorded in Shopify using a new processing mutation.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/apps/build/orders-fulfillment/returns-apps/migrate-to-return-processing"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Improved onboarding flows with App Bridge",
+          "description": "Use shopify.app.extensions() to check which of your checkout and customer account extensions are active.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/app-bridge-library/apis/app"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Inventory adjustments reference",
+          "description": "Add referenceDocumentUri to adjustments to show your app in admin history, create audit‑ready trails, and trace changes to its source.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/changelog/new-guidelines-for-referencedocumenturi-in-inventory-adjustments"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Payment terms and deposit configurations",
+          "description": "Use the paymentTermsSet operation in Shopify Payment Customization Functions to dynamically change payment terms and deposit requirements. Exclusive to Plus.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/functions/latest/payment-customization"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Order review operation in Shopify Functions",
+          "description": "Determine which B2B orders require review based on specific conditions using the orderReviewAdd operation in payment customization. Exclusive to Plus.",
+          "extra": [],
+          "cta": [
+            {
+              "label": "",
+              "href": "https://shopify.dev/docs/api/functions/latest/payment-customization"
+            }
+          ],
+          "images": []
+        }
+      ],
+      "linkCount": 59,
+      "links": [
+        {
+          "label": "Read dev docs",
+          "href": "https://shopify.dev/docs/agents"
+        },
+        {
+          "label": "Read dev docs",
+          "href": "https://shopify.dev/docs/agents/catalog"
+        },
+        {
+          "label": "Read dev docs",
+          "href": "http://shopify.dev/docs/storefronts/mobile/checkout-kit/web"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/built-for-shopify"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/changelog/app-recommendations-in-sidekick-now-available"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/sidekick"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/changelog/built-for-shopify-apps-get-priority-visibility-across-the-shopify-app-store"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/built-for-shopify"
+        },
+        {
+          "label": "",
+          "href": "https://apps.shopify.com/"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/changelog/built-for-shopify-grace-period-update-for-uninstall-and-app-embed-requirements"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/built-for-shopify"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/changelog/improved-theme-discovery-and-merchandising-on-the-shopify-theme-store"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/launch/shopify-app-store/app-store-requirements"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/performance/admin-installation-oauth"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/devmcp"
+        },
+        {
+          "label": "",
+          "href": "https://www.shopify.com/partners/blog/introducing-admin-intents-keep-merchants-in-your-app-while-managing-shopify-resources"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/usage/bulk-operations/imports"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/metafields/about-metafields"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/metaobjects/about-metaobjects"
+        },
+        {
+          "label": "",
+          "href": "https://tangleml.com/"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/functions/test-debug-functions"
+        },
+        {
+          "label": "",
+          "href": "https://hydrogen.shopify.dev/update/december-2025"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/devmcp"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/changelog/dev-mcp-now-supports-pos-ui-extensions"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/functions/migrating-from-shopify-scripts"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/offline-access-tokens"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/cli-for-apps/test-apps-locally"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/storefronts/themes/tools/cli/environments"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/pos-ui-extensions/2025-10-rc/polaris-web-components"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/discounts/discount-rejections"
+        },
+        {
+          "label": "",
+          "href": "https://shop.app/minis"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/pos-ui-extensions/latest/apis/storage-api"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/admin-graphql/2025-10/enums/ProductStatus"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/product-merchandising/bundles/add-product-fixed-bundle"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/purchase-options/deferred"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/storefronts/themes/tools/shopify-liquid-vscode"
+        },
+        {
+          "label": "",
+          "href": "https://hydrogen.shopify.dev/update/december-2025"
+        },
+        {
+          "label": "",
+          "href": "https://hydrogen.shopify.dev/update/december-2025"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/product-merchandising/nested-cart-lines"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/storefronts/mobile/checkout-kit/accelerated-checkouts-overview"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/admin-graphql/2025-10/unions/DiscountContext"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/purchase-options/subscriptions/migrate-to-subscriptions-api/migrate-subscription-contracts"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/pos-ui-extensions/latest/targets/action/pos-cart-line-item-details-action-render"
+        },
+        {
+          "label": "",
+          "href": "https://help.shopify.com/en/manual/sell-in-person/shopify-pos/process-sales-transaction"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/changelog/pos-ui-extensions-developer-experience-improvements"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/pos-ui-extensions/latest/target-apis/platform-apis/navigation-api"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/functions/latest/cart-transform"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/changelog/subscription-selling-plan-support-with-pos-ui-extensions"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/admin-graphql/latest/mutations/inventorytransfercreate"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/admin-graphql/latest/queries/return"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/storefronts/headless/building-with-the-customer-account-api/authenticate-customers"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/admin-graphql/latest/objects/SuggestedStoreCreditRefund"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/shopifyql"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/apps/build/orders-fulfillment/returns-apps/migrate-to-return-processing"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/app-bridge-library/apis/app"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/changelog/new-guidelines-for-referencedocumenturi-in-inventory-adjustments"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/functions/latest/payment-customization"
+        },
+        {
+          "label": "",
+          "href": "https://shopify.dev/docs/api/functions/latest/payment-customization"
+        }
+      ],
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U271_Checkout_MCP.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U183_Checkout_for_web_f222b0b3-24d2-4ee2-aff2-ebf8ffb4a766.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U226__Sidekick_app_discovery_6b57593c-579c-4a91-84af-7173ff60da83.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U253_-_App_intents_for_Sidekick.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/preview_images/f880db5d8462441482ecbc2437cacf5d.thumbnail.0000000000.jpg",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U229_Admin_Intents_API.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U191_Faster_bulk_data_imports.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U223_upgrades_for_metafields.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U267_Tangle.png",
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/c9c913c72ba45ce34cb2521bcaaefd07.png",
+        "https://cdn.shopify.com/s/files/1/0951/3130/4218/files/U190_pos_extension_storage_dark.png"
+      ],
+      "altText": [
+        "A Sidekick prompt where the user asked about review apps and received recommendations.",
+        "A Sidekick prompt where the user asked for the highest converting subject lines and Sidekick pulls the results.",
+        "An interface is shown where a user can add a product with a title, description, and media.",
+        "Multiple code editors where the developer is running a bulk import.",
+        "A code editor is paired with a search bar where the user searched for a date.",
+        "A visual editor is shown where the user is training ML collaboratively.",
+        "A code editor shows the developer using the POS Extensions Storage API."
+      ],
+      "canvases": 1,
+      "heightPx": 7836
+    }
+  ],
+  "totals": {
+    "sections": 12,
+    "features": 199,
+    "links": 249,
+    "pageHeight": 46413
+  }
+}

@@ -1,0 +1,108 @@
+/* -------------------------------------------------------------------------
+   shoptify / tokens.css
+   Original, reusable token sheet distilled from the Winter '26 study.
+   Not Shopify CSS. Safe to drop into a new project.
+   ------------------------------------------------------------------------- */
+
+:root {
+  /* surfaces */
+  --st-paper: #f7f7ee;
+  --st-paper-deep: #efeee2;
+  --st-ink: #292919;
+  --st-ink-soft: #4c4c3d;
+  --st-black: #0b0b08;
+  --st-muted: #83836f;
+
+  /* one accent. do not add a second. */
+  --st-accent: #ea1360;
+
+  /* hairlines */
+  --st-rule: rgba(41, 41, 25, 0.16);
+  --st-rule-strong: rgba(41, 41, 25, 0.34);
+  --st-rule-invert: rgba(247, 247, 238, 0.18);
+
+  /* type roles */
+  --st-font-display: "NeueMontreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --st-font-narrative: "HWCigars", Georgia, "Times New Roman", serif;
+  --st-font-ui: "InterVar", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* fluid display scale */
+  --st-display-1: clamp(4.5rem, 13vw, 13.75rem);
+  --st-display-2: clamp(2.4rem, 6vw, 4rem);
+  --st-display-3: clamp(1.75rem, 3.4vw, 2rem);
+  --st-narrative-1: clamp(2rem, 3.4vw, 3rem);
+  --st-narrative-2: clamp(1.4rem, 2.2vw, 1.5rem);
+
+  /* spacing + grid */
+  --st-gutter: clamp(12px, 1vw, 16px);
+  --st-space-1: 4px;
+  --st-space-2: 8px;
+  --st-space-3: 12px;
+  --st-space-4: 20px;
+  --st-space-5: 32px;
+  --st-space-6: 56px;
+  --st-space-7: 96px;
+
+  --st-radius-sm: 2px;
+  --st-radius-md: 6px;
+  --st-radius-lg: 12px;
+
+  /* motion: enter slow, exit faster, feedback quick */
+  --st-ease-enter: cubic-bezier(0.22, 1, 0.36, 1);
+  --st-ease-scene: cubic-bezier(0.41, 0.19, 0.13, 0.95);
+  --st-ease-draw: cubic-bezier(0.34, 0.22, 0.47, 0.84);
+  --st-dur-feedback: 200ms;
+  --st-dur-state: 300ms;
+  --st-dur-scene: 600ms;
+  --st-dur-draw: 3000ms;
+}
+
+/* ---------------------------------------------------------------- roles -- */
+.st-display {
+  font-family: var(--st-font-display);
+  font-weight: 700;
+  font-size: var(--st-display-2);
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+  text-wrap: pretty;
+  margin: 0;
+}
+.st-display--xl {
+  font-size: var(--st-display-1);
+  line-height: 0.8;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+}
+.st-narrative {
+  font-family: var(--st-font-narrative);
+  font-weight: 400;
+  font-size: var(--st-narrative-1);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+  text-wrap: pretty;
+  margin: 0;
+}
+.st-ui {
+  font-family: var(--st-font-ui);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+.st-meta {
+  font-family: var(--st-font-ui);
+  font-size: 0.625rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--st-muted);
+}
+.st-rule { border: 0; border-top: 1px solid var(--st-rule); margin: 0; }
+.st-rule--invert { border-color: var(--st-rule-invert); }
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --st-dur-feedback: 1ms;
+    --st-dur-state: 1ms;
+    --st-dur-scene: 1ms;
+    --st-dur-draw: 1ms;
+  }
+}

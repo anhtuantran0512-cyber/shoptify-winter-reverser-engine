@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shoptify — Winter '26 study vault</title>
+<meta name="description" content="A field archive of the Shopify Editions Winter '26 site: design tokens, chapters, motion, bundles and captured assets.">
+<link rel="icon" href="../assets/images/favicon_16.png">
+<link rel="stylesheet" href="studio.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<aside class="rail" aria-label="Sections">
+  <a class="rail-mark" href="#overview" aria-label="Shoptify home">S<span>t</span></a>
+  <nav class="rail-nav" id="railNav"></nav>
+  <div class="rail-foot"><span>W</span><span>26</span></div>
+</aside>
+
+<header class="topbar">
+  <a class="brand" href="#overview">SHOPTIFY</a>
+  <p class="topbar-meta">Shopify Editions · Winter <span class="quote">'</span>26 · field study</p>
+  <button class="palette-btn" id="paletteBtn" type="button" aria-haspopup="dialog">
+    Search the vault <kbd>Ctrl</kbd><kbd>E</kbd>
+  </button>
+</header>
+
+<main>
+  <!-- ============================================================ OVERVIEW -->
+  <section class="hero" id="overview" data-section>
+    <div class="hero-top">
+      <p class="kicker"><span class="kicker-dot"></span> Field study 001 — commerce platform</p>
+      <h1 class="hero-title">Shoptify<span class="hero-period">.</span></h1>
+      <div class="hero-cols">
+        <p class="hero-lede" data-bind="meta.description">The commerce renaissance is here.</p>
+        <p class="hero-note">Everything the browser was allowed to see: markup, compiled CSS, module graph, fonts, Rive files, film loops and 199 product updates — rearranged into something a designer and an engineer can actually use.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="#chapters">Open the twelve chapters</a>
+        <a class="btn btn-ghost" href="#stack">Read the teardown</a>
+      </div>
+    </div>
+
+    <figure class="hero-figure reveal">
+      <img data-bind-src="hero" alt="Reference frame from the Shopify Editions Winter '26 hero: two Renaissance figures mid-air, a magenta shopping bag and skateboard.">
+      <figcaption>
+        <span>Fig. 01 — Hero lockup</span>
+        <span>NeueMontreal / HWCigars / painting collage</span>
+      </figcaption>
+    </figure>
+
+    <dl class="ledger" id="ledger" aria-label="Capture totals"></dl>
+  </section>
+
+  <!-- =============================================================== STACK -->
+  <section class="band band-dark" id="stack" data-section>
+    <div class="section-head">
+      <p class="section-no">01</p>
+      <div>
+        <h2>What is actually running</h2>
+        <p class="section-sub">Oxygen hosts it, Remix routes it, Tailwind styles it, Rive animates it, Lenis smooths it. No mystery framework.</p>
+      </div>
+    </div>
+
+    <div class="stack-grid" id="stackGrid"></div>
+
+    <div class="split">
+      <div class="panel">
+        <div class="panel-head"><h3>Bundle weights</h3><span class="tag">window.__remixManifest</span></div>
+        <ul class="bars" id="bundleList"></ul>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h3>Routes shipped</h3><span class="tag" id="routeCount"></span></div>
+        <ul class="routes" id="routeList"></ul>
+        <p class="panel-note">The page is one route inside a real storefront: <em>cart</em>, <em>merch</em> and <em>video/:handle</em> are part of the same build.</p>
+      </div>
+    </div>
+
+    <div class="method">
+      <h3>How the capture was made</h3>
+      <ol class="steps">
+        <li><span>01</span><p>Open the page in Camoufox, then read <code>performance.getEntriesByType('resource')</code> — the DevTools Network panel, expressed as JavaScript.</p></li>
+        <li><span>02</span><p>Walk the live DOM for chapters, feature copy, CTAs and media. Serialize the SSR HTML as a second witness.</p></li>
+        <li><span>03</span><p>Download the public CDN files the page already served to the browser. Images are re-requested at <code>width=700</code> to keep the vault light.</p></li>
+        <li><span>04</span><p>Parse the compiled stylesheet for tokens, then rebuild this index from the JSON instead of retyping anything.</p></li>
+      </ol>
+      <p class="method-note">No authentication, paywall or private endpoint was touched. If the browser could render it, it is in <code>assets/</code>.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================== DESIGN -->
+  <section id="design" data-section>
+    <div class="section-head">
+      <p class="section-no">02</p>
+      <div>
+        <h2>The design system, decoded</h2>
+        <p class="section-sub">Paper, ink and one scream of pink. The rest is typography doing the heavy lifting.</p>
+      </div>
+    </div>
+
+    <div class="swatches" id="paletteRow"></div>
+
+    <div class="type-lab">
+      <div class="type-lab-head">
+        <h3>Type specimens</h3>
+        <p>All fonts are local files from the capture — open DevTools twice and they are still there.</p>
+      </div>
+      <div id="typeSpecimens"></div>
+    </div>
+
+    <div class="tokens-grid">
+      <div class="panel">
+        <div class="panel-head"><h3>Layout grammar</h3><span class="tag">CSS variables</span></div>
+        <dl class="kv" id="layoutList"></dl>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h3>Motion curves</h3><span class="tag">cubic-bezier</span></div>
+        <ul class="motion" id="motionList"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ CHAPTERS -->
+  <section class="band band-stage" id="chapters" data-section>
+    <div class="section-head">
+      <p class="section-no">03</p>
+      <div>
+        <h2>Twelve chapters, one scroll</h2>
+        <p class="section-sub">The page is 46,000px tall on purpose. Each chapter is a sticky scene with its own painting, headline and feature set.</p>
+      </div>
+    </div>
+
+    <div class="chapter-shell">
+      <ol class="chapter-list" id="chapterList" aria-label="Chapters"></ol>
+      <article class="chapter-detail" id="chapterDetail" aria-live="polite"></article>
+    </div>
+  </section>
+
+  <!-- ============================================================== ASSETS -->
+  <section id="assets" data-section>
+    <div class="section-head">
+      <p class="section-no">04</p>
+      <div>
+        <h2>The asset vault</h2>
+        <p class="section-sub">Every file is local. Filter it, open it, or steal the technique — not the artwork.</p>
+      </div>
+    </div>
+
+    <div class="asset-toolbar">
+      <div class="chips" id="assetTabs" role="tablist" aria-label="Asset kinds"></div>
+      <label class="asset-search">
+        <span>Filter</span>
+        <input id="assetSearch" type="search" placeholder="name, e.g. rollouts, pulse, NeueMontreal" autocomplete="off">
+      </label>
+    </div>
+    <p class="asset-count" id="assetCount"></p>
+    <div class="asset-grid" id="assetGrid"></div>
+    <div class="asset-empty" id="assetEmpty" hidden>
+      <p class="empty-mark">∅</p>
+      <h3>Nothing matches that filter</h3>
+      <p>Try a chapter name, a font, or clear the search.</p>
+      <button class="btn btn-ghost" type="button" id="assetReset">Reset filters</button>
+    </div>
+    <button class="load-more" id="loadMore" type="button" hidden>Load more files</button>
+  </section>
+
+  <!-- ================================================================ CODE -->
+  <section class="band band-dark" id="code" data-section>
+    <div class="section-head">
+      <p class="section-no">05</p>
+      <div>
+        <h2>Code, kept honest</h2>
+        <p class="section-sub">The bundles are minified, as served. What matters is the shape: entry, root, page route, shared components, Rive runtime.</p>
+      </div>
+    </div>
+
+    <div class="code-grid">
+      <div class="panel">
+        <div class="panel-head"><h3>Replay the capture</h3><span class="tag">scripts/</span></div>
+        <pre class="replay" id="replay"></pre>
+        <p class="panel-note">Run from the project root. Python 3.10+, Pillow, and a live Camofox server on <code>127.0.0.1:9377</code>.</p>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h3>Documents</h3><span class="tag">docs/</span></div>
+        <ul class="docs" id="docsList"></ul>
+        <p class="panel-note">Markdown, written from the capture rather than from memory. Open them beside the site.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================================== NOTES -->
+  <section id="notes" data-section>
+    <div class="section-head">
+      <p class="section-no">06</p>
+      <div>
+        <h2>Scope &amp; conscience</h2>
+        <p class="section-sub">A study vault is only useful if it is honest about what it is.</p>
+      </div>
+    </div>
+    <div class="notes-grid">
+      <div class="note">
+        <h3>What this is</h3>
+        <p>A local mirror of resources the page sent to a normal browser, plus original analysis and an original index interface. Built to learn layout, motion and information architecture.</p>
+      </div>
+      <div class="note">
+        <h3>What this is not</h3>
+        <p>Not a Shopify clone, not a template, not a redistribution. Imagery, copy, fonts and bundles remain Shopify Inc. property. Do not ship them in a product.</p>
+      </div>
+      <div class="note">
+        <h3>What to reuse</h3>
+        <p>The thinking: paper-and-ink palette, one saturated accent, editorial type scale, chapter rail, sticky scenes, restrained easings. Rebuild those with your own assets.</p>
+      </div>
+      <div class="note">
+        <h3>Freshness</h3>
+        <p id="freshness">Captured once. CDN hashes change with every deploy, so treat filenames as a timestamp, not an API.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>Shoptify — Winter '26 study vault</span>
+  <span id="footMeta"></span>
+  <a href="#overview">Back to top ↑</a>
+</footer>
+
+<!-- command palette -->
+<div class="cmdk" id="cmdk" role="dialog" aria-modal="true" aria-labelledby="cmdkLabel" hidden>
+  <div class="cmdk-box">
+    <div class="cmdk-input">
+      <span id="cmdkLabel">Jump to</span>
+      <input id="cmdkField" type="text" placeholder="chapter, asset, document…" autocomplete="off">
+      <kbd>Esc</kbd>
+    </div>
+    <ul class="cmdk-results" id="cmdkResults"></ul>
+    <p class="cmdk-foot">↑ ↓ to move · ↵ to open · Ctrl+E to toggle</p>
+  </div>
+</div>
+
+<!-- image lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+  <figure>
+    <img id="lightboxImg" alt="">
+    <figcaption id="lightboxCap"></figcaption>
+  </figure>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

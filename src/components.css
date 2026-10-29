@@ -1,0 +1,111 @@
+/* -------------------------------------------------------------------------
+   shoptify / components.css
+   Three patterns worth borrowing from the study, rebuilt from scratch:
+   chapter rail, feature card, editorial lockup.
+   ------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------- chapter rail */
+.st-rail {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-right: 1px solid var(--st-rule);
+  background: color-mix(in srgb, var(--st-paper) 88%, transparent);
+  backdrop-filter: blur(12px);
+  z-index: 40;
+}
+.st-rail__item {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 8px 6px;
+  font-family: var(--st-font-ui);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: var(--st-muted);
+  cursor: pointer;
+  transition: color var(--st-dur-state) var(--st-ease-enter);
+}
+.st-rail__item[aria-current="true"] { color: var(--st-accent); }
+.st-rail__item:hover { color: var(--st-ink); }
+
+/* --------------------------------------------------------- feature card */
+.st-feature {
+  display: grid;
+  gap: var(--st-space-2);
+  padding: var(--st-space-4) 0;
+  border-top: 1px solid var(--st-rule);
+  max-width: 46ch;
+}
+.st-feature__kicker { color: var(--st-accent); }
+.st-feature__title {
+  margin: 0;
+  font-family: var(--st-font-display);
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+.st-feature__body {
+  margin: 0;
+  font-family: var(--st-font-ui);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--st-ink-soft);
+}
+.st-feature__link {
+  justify-self: start;
+  font-family: var(--st-font-ui);
+  font-size: 0.75rem;
+  text-decoration: none;
+  border-bottom: 1px solid var(--st-rule-strong);
+  padding-bottom: 2px;
+  transition: color var(--st-dur-feedback) var(--st-ease-enter),
+    border-color var(--st-dur-feedback) var(--st-ease-enter);
+}
+.st-feature__link:hover { color: var(--st-accent); border-color: var(--st-accent); }
+
+/* ------------------------------------------------------ editorial lockup */
+.st-lockup {
+  display: grid;
+  gap: var(--st-space-5);
+  padding: var(--st-space-5);
+  border: 1px solid var(--st-rule);
+  background: var(--st-paper);
+}
+.st-lockup__index {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--st-space-4);
+  padding-bottom: var(--st-space-3);
+  border-bottom: 1px solid var(--st-rule);
+}
+.st-lockup__word { text-transform: uppercase; }
+.st-lockup__dot { color: var(--st-accent); }
+
+/* --------------------------------------------------------------- states */
+.st-skeleton {
+  background: linear-gradient(90deg, var(--st-paper-deep) 25%, #f4f3e9 50%, var(--st-paper-deep) 75%);
+  background-size: 400% 100%;
+  animation: st-shimmer 1.4s var(--st-ease-enter) infinite;
+  border-radius: var(--st-radius-sm);
+}
+@keyframes st-shimmer {
+  from { background-position: 100% 0; }
+  to { background-position: 0 0; }
+}
+.st-empty {
+  border: 1px dashed var(--st-rule-strong);
+  padding: var(--st-space-6) var(--st-space-4);
+  text-align: center;
+  font-family: var(--st-font-ui);
+  font-size: 0.75rem;
+  color: var(--st-muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  .st-skeleton { animation: none; }
+}

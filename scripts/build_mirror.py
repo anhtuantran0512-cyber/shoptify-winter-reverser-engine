@@ -54,6 +54,14 @@ URL_RE = re.compile(
     r'https://(?:cdn\.shopify\.com|editions-winter-2026\.myshopify\.com|dl\.polyhaven\.org)'
     r'/[^\s"\'<>\\]+'
 )
+# chunk *base* prefix: `"https://cdn.shopify.com/oxygen-v2/…/4753383/" + "assets/x.js"`.
+# It carries no filename, so the per-URL rewriter can never map it; Vite's
+# preload helper appends `assets/<chunk>.js` at runtime and the request goes to
+# the live CDN. Point the base at the origin root: `{ORIGIN}/assets/<chunk>` is
+# the same file through the mirror's assets symlink.
+BASE_RE = re.compile(
+    r"https://cdn\.shopify\.com/oxygen-v2/[0-9]+/[0-9]+/[0-9]+/[0-9]+/"
+)
 CHUNK_RE = re.compile(
     r"https://cdn\.shopify\.com/oxygen-v2/[0-9/]+/assets/([A-Za-z0-9_().\-]+\.(?:js|css))"
     r"(?:\?[^\s\"'<>\\]*)?"
@@ -101,14 +109,22 @@ def chunk(name: str) -> str:
 
 
 def rewrite_js(text: str) -> str:
+    text = BASE_RE.sub(f"{ORIGIN}/", text)
     text = CHUNK_RE.sub(lambda m: chunk(m.group(1)), text)
     # package CDN bases (Rive wasm, three.js KTX2 transcoder) stay local too
     text = text.replace("https://unpkg.com/", f"{ORIGIN}/vendor/")
+    # three.js GLTFLoader defaults its DRACO decoder to gstatic; the capture has
+    # no copy, so vendor/ carries one (npm three examples/jsm/libs/draco)
+    text = text.replace(
+        "https://www.gstatic.com/draco/versioned/decoders/1.5.6/",
+        f"{ORIGIN}/vendor/draco@1.5.6/",
+    )
     text = text.replace("https://cdn.jsdelivr.net/npm/", f"{ORIGIN}/vendor/")
     return rewrite_assets(text, "")
 
 
 def rewrite_html(html: str) -> str:
+    html = BASE_RE.sub(f"{ORIGIN}/", html)
     # everything that pointed at the live site keeps working online, except the
     # anchor links of this page and the local /js + /assets paths
     html = re.sub(

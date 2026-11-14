@@ -36,8 +36,11 @@ python3 -m http.server 4173
 
 The mirror has to answer on `/editions/winter2026` because the app matches that
 path against its route table; `serve_mirror.py` does that, `http.server` cannot.
-It also rebases the origin baked into every asset URL onto the request's `Host`,
-so the same build works on localhost, a tunnel or a preview proxy.
+Asset URLs are root-relative (`/assets/...`), so the page works unchanged on
+localhost, through a tunnel or behind a preview proxy - no origin to guess. A
+two-line `URL` shim is injected as the first script because three call sites in
+the bundles do `new URL(path)` without a base, which throws on a relative path
+and aborts hydration.
 A server is also required for `site/` (fonts, images and `data.js` are loaded
 relative). `Ctrl+E` opens the command palette.
 

@@ -29,7 +29,10 @@ ROOT = Path(__file__).resolve().parent.parent / "mirror"
 PAGE_PATH = "/editions/winter2026"
 
 # must match the MIRROR_ORIGIN the mirror was built with
-BAKED = os.environ.get("MIRROR_ORIGIN", "http://127.0.0.1:4174").rstrip("/")
+# Empty unless the mirror was built with MIRROR_ORIGIN: the build emits
+# root-relative URLs, so nothing needs rebasing and the page works behind any
+# host. Keeping the hook lets a pinned build still adapt at runtime.
+BAKED = os.environ.get("MIRROR_ORIGIN", "").rstrip("/")
 
 mimetypes.add_type("text/javascript", ".js")
 mimetypes.add_type("text/css", ".css")
@@ -168,13 +171,15 @@ class MirrorHandler(SimpleHTTPRequestHandler):
             return False
 
         mtime = file.stat().st_mtime
-        key = (str(file), mtime, self._public_origin() or BAKED)
+        key = (str(file), mtime, BAKED)
         body = _cache.get(key)
         if body is None:
             text = file.read_text(errors="ignore")
-            origin = self._public_origin()
-            if origin and origin != BAKED:
-                text = text.replace(BAKED, origin)
+            # only a build pinned with MIRROR_ORIGIN carries an origin to swap
+            if BAKED:
+                origin = self._public_origin()
+                if origin and origin != BAKED:
+                    text = text.replace(BAKED, origin)
             body = text.encode()
             _cache[key] = body
 
@@ -247,7 +252,8 @@ def main() -> None:
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 4174
     handler = partial(MirrorHandler, directory=str(ROOT))
     server = ThreadingHTTPServer(("0.0.0.0", port), handler)
-    print(f"mirror  http://127.0.0.1:{port}{PAGE_PATH}   (rebasing {BAKED})")
+    note = f"   (rebasing {BAKED})" if BAKED else ""
+    print(f"mirror  http://127.0.0.1:{port}{PAGE_PATH}{note}")
     server.serve_forever()
 
 

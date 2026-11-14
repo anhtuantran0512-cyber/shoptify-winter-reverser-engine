@@ -23,11 +23,12 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "mirror"
 SSR = ROOT / "snapshot" / "page.ssr.html"
 
-# Asset URLs must be absolute: the bundles call `new URL(assetUrl)` with no base
-# and throw 'Invalid URL' on a root-relative string, which kills hydration. So a
-# placeholder origin is baked in at build time and serve_mirror.py swaps it for
-# the origin the request actually arrived on (localhost, tunnel, preview proxy).
-ORIGIN = os.environ.get("MIRROR_ORIGIN", "http://127.0.0.1:4173").rstrip("/")
+# Asset URLs stay root-relative ("/assets/..."): the page then works on
+# localhost, a tunnel or any proxy, with no origin guessing. The bundles call
+# `new URL(url)` without a base, which throws on a relative string, so the
+# document carries a tiny shim (URL_SHIM) that defaults the base to the
+# document - the same thing the browser itself does for every other URL use.
+ORIGIN = os.environ.get("MIRROR_ORIGIN", "").rstrip("/")
 
 FOLDER = {
     "js": "js",
@@ -68,9 +69,22 @@ CHUNK_RE = re.compile(
     r"https://cdn\.shopify\.com/oxygen-v2/[0-9/]+/assets/([A-Za-z0-9_().\-]+\.(?:js|css))"
     r"(?:\?[^\s\"'<>\\]*)?"
 )
+
+# Injected as the first script in <head>. `new URL(path)` with no base throws on
+# a relative path; three call sites in the bundles do exactly that (asset URLs,
+# canonical links), which aborts hydration and leaves a blank page. Defaulting
+# the base to the document is what the platform does for fetch(), src= and
+# href=, so relative URLs become uniform everywhere.
+URL_SHIM = """<script>(function(){var N=window.URL;if(!N)return;function U(u,b){return b===undefined?new N(u,document.baseURI):new N(u,b)}U.prototype=N.prototype;U.createObjectURL=function(){return N.createObjectURL.apply(N,arguments)};U.revokeObjectURL=function(){return N.revokeObjectURL.apply(N,arguments)};if(N.canParse)U.canParse=function(u,b){return b===undefined?N.canParse(u,document.baseURI):N.canParse(u,b)};if(N.parse)U.parse=function(u,b){return b===undefined?N.parse(u,document.baseURI):N.parse(u,b)};try{window.URL=U}catch(e){}})();</script>"""
+
 SITE = "https://www.shopify.com"
 
 stats = {"hit": 0, "miss": 0, "missing": set()}
+
+
+def asset_root() -> str:
+    """Prefix for local asset URLs: "" (root-relative) unless pinned."""
+    return f"{ORIGIN}/" if ORIGIN else "/"
 
 
 def local(url: str, prefix: str) -> str | None:
@@ -82,7 +96,7 @@ def local(url: str, prefix: str) -> str | None:
         return None
     # keep the query string: the bundles append `&width=` to image URLs
     suffix = "?" + query if (query := url.partition("?")[2]) else ""
-    return f"{ORIGIN}/assets/{folder}/{name}{suffix}"
+    return f"{asset_root()}assets/{folder}/{name}{suffix}"
 
 
 def rewrite_assets(text: str, prefix: str) -> str:
@@ -111,22 +125,22 @@ def chunk(name: str) -> str:
 
 
 def rewrite_js(text: str) -> str:
-    text = BASE_RE.sub(f"{ORIGIN}/", text)
+    text = BASE_RE.sub(asset_root(), text)
     text = CHUNK_RE.sub(lambda m: chunk(m.group(1)), text)
     # package CDN bases (Rive wasm, three.js KTX2 transcoder) stay local too
-    text = text.replace("https://unpkg.com/", f"{ORIGIN}/vendor/")
+    text = text.replace("https://unpkg.com/", f"{asset_root()}vendor/")
     # three.js GLTFLoader defaults its DRACO decoder to gstatic; the capture has
     # no copy, so vendor/ carries one (npm three examples/jsm/libs/draco)
     text = text.replace(
         "https://www.gstatic.com/draco/versioned/decoders/1.5.6/",
-        f"{ORIGIN}/vendor/draco@1.5.6/",
+        f"{asset_root()}vendor/draco@1.5.6/",
     )
     text = text.replace("https://cdn.jsdelivr.net/npm/", f"{ORIGIN}/vendor/")
     return rewrite_assets(text, "")
 
 
 def rewrite_html(html: str) -> str:
-    html = BASE_RE.sub(f"{ORIGIN}/", html)
+    html = BASE_RE.sub(asset_root(), html)
     # everything that pointed at the live site keeps working online, except the
     # anchor links of this page and the local /js + /assets paths
     html = re.sub(
@@ -138,13 +152,20 @@ def rewrite_html(html: str) -> str:
     html = html.replace(f'href="{SITE}/assets/', 'href="/assets/')
     # canonical + hreflang links must stay absolute: the bundles run `new URL()`
     # on them, which throws on a root-relative path
-    html = html.replace(
-        f'href="{SITE}/editions/winter2026', f'href="{ORIGIN}/editions/winter2026'
-    )
+    if ORIGIN:
+        html = html.replace(
+            f'href="{SITE}/editions/winter2026', f'href="{ORIGIN}/editions/winter2026'
+        )
 
     # sibling chunks (inline bootstrap imports, stylesheet links)
     html = CHUNK_RE.sub(lambda m: chunk(m.group(1)), html)
     html = rewrite_assets(html, "")
+    # the shim must run before any module script evaluates
+    for anchor in ("<head>", "<head ", "<HEAD>"):
+        if anchor in html:
+            if anchor == "<head>":
+                html = html.replace(anchor, anchor + URL_SHIM, 1)
+            break
     return html
 
 

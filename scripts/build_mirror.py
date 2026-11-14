@@ -23,9 +23,11 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "mirror"
 SSR = ROOT / "snapshot" / "page.ssr.html"
 
-# Asset URLs stay absolute: the bundles call `new URL(assetUrl)` without a base,
-# which throws on a root-relative path. Serve on another origin with MIRROR_ORIGIN.
-ORIGIN = os.environ.get("MIRROR_ORIGIN", "http://127.0.0.1:4174").rstrip("/")
+# Asset URLs must be absolute: the bundles call `new URL(assetUrl)` with no base
+# and throw 'Invalid URL' on a root-relative string, which kills hydration. So a
+# placeholder origin is baked in at build time and serve_mirror.py swaps it for
+# the origin the request actually arrived on (localhost, tunnel, preview proxy).
+ORIGIN = os.environ.get("MIRROR_ORIGIN", "http://127.0.0.1:4173").rstrip("/")
 
 FOLDER = {
     "js": "js",
@@ -132,6 +134,8 @@ def rewrite_html(html: str) -> str:
         f'href="{SITE}/',
         html,
     )
+    # ...but the site's own asset paths must stay local, not become shopify.com
+    html = html.replace(f'href="{SITE}/assets/', 'href="/assets/')
     # canonical + hreflang links must stay absolute: the bundles run `new URL()`
     # on them, which throws on a root-relative path
     html = html.replace(

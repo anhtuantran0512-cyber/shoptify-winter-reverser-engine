@@ -12,6 +12,7 @@ This is a **study project**. Page copy, imagery, fonts and bundles belong to Sho
 |---|---|
 | `mirror/` | The page itself: captured SSR document + bundles + rewritten URLs, running locally with its scroll, WebGL and video behaviour |
 | `site/` | Original interface for browsing the archive (paper/ink editorial design, chapter reader, asset vault, Ctrl+E palette) |
+| `serica/` | **Serica — The Lacquer Edition**: the Editions page rebuilt with the same structure, interaction and design language, but a new cast (East-Asian Renaissance characters and props) and new chapter paintings. Open `serica/README.md`. |
 | `assets/` | CDN resources the page served: JS chunks, compiled CSS, fonts, 27 Rive files, ~554 images, 37 GLB models, film loops |
 | `snapshot/` | SSR HTML, per-section screenshots, full page content model, resource inventory, capture log |
 | `docs/` | Teardown, design system, information architecture, motion analysis, asset ledger |

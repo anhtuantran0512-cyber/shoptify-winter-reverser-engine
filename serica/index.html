@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Serica Editions | Winter &#x27;26</title>
+<meta name="description" content="The lacquer renaissance is here. Explore 150+ product updates across AI, retail, and more.">
+<meta name="theme-color" content="#0b0b08">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/art/hero.webp">
+<link rel="stylesheet" href="css/serica.css">
+</head>
+<body class="is-loading">
+<a class="skip" href="#main-content">Skip to main content</a>
+
+<!-- page grain / paper texture -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- scroll progress hairline -->
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<!-- ============================================================== NAVIGATION -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top" data-top aria-label="Serica Editions Winter 26">
+      <svg class="nav-mark" viewBox="0 0 18 19" width="18" height="19" fill="none" aria-hidden="true">
+        <path fill="currentColor" d="M9 1.4c3.9 0 7 3.1 7 7v9.2H2V8.4c0-3.9 3.1-7 7-7Z" opacity=".18"/>
+        <path fill="currentColor" d="M9 2.2 15 6v8.2l-6 3.4-6-3.4V6l6-3.8Z" stroke="currentColor" stroke-width="1.1" fill="none"/>
+        <path fill="currentColor" d="M9 5.6 12 7.3v3.4L9 12.4 6 10.7V7.3l3-1.7Z"/>
+      </svg>
+      <span class="nav-brand-text"><span>Serica Editions</span><span class="nav-brand-sub">Winter ’26</span></span>
+    </a>
+
+    <nav class="nav-menu" aria-label="Main">
+      <button class="nav-button" type="button" id="editionsBtn" aria-expanded="false" aria-controls="editionsPanel">
+        Editions <span class="nav-chev" aria-hidden="true"></span>
+      </button>
+      <a class="nav-button" href="#search" id="searchBtn">Search <span class="nav-search-ico" aria-hidden="true"></span></a>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="nav-link" href="#main-content">Serica.com</a>
+      <a class="btn-pill" href="#chapters">Start for free</a>
+      <button class="nav-burger" type="button" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- editions dropdown -->
+  <div class="editions-panel" id="editionsPanel" hidden>
+    <ul>
+      <li><a href="#chapters"><img src="img/ed-spring.svg" alt="" width="24" height="24"><span><b>Spring ’26</b><em>Everywhere</em></span></a></li>
+      <li><a href="#chapters"><img src="img/ed-summer.svg" alt="" width="24" height="24"><span><b>Summer ’26</b><em>Horizons</em></span></a></li>
+      <li><a href="#top" aria-current="page"><img src="img/ed-winter.svg" alt="" width="24" height="24"><span><b>Winter ’26</b><em>The Lacquer Edition</em></span></a></li>
+    </ul>
+    <a class="editions-all" href="#chapters">View all Editions <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+
+<main id="main-content">
+
+  <!-- ============================================================ 00 · HERO -->
+  <section class="stage stage-hero" id="top" data-stage="hero" data-theme="dark" data-chapter="-1">
+    <div class="stage-media">
+      <img class="stage-art" src="img/art/hero.webp" alt="Two dancers in ivory silk leap through a storm-lit Renaissance sky above a pine forest, holding a magenta teacup, a fan of magenta fans and a floating lacquer tea cart." fetchpriority="high" decoding="async">
+      <div class="stage-scrim"></div>
+    </div>
+
+    <div class="stage-content">
+      <div class="hero-lockup">
+        <p class="eyebrow"><span class="dot"></span> Serica Editions — Winter ’26</p>
+        <h1 class="hero-title">The<br><em class="hero-title-em">Lacquer</em><br>Edition</h1>
+        <p class="hero-lede">A new world of commerce.<br>150+ product updates.</p>
+        <div class="hero-cta">
+          <a class="btn-pill btn-pill--light" href="#chapters">Explore the twelve chapters</a>
+          <a class="btn-line" href="#sidekick">Start watching the scroll <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+
+      <!-- chapter index, roman numerals (the rail of the original) -->
+      <nav class="chapter-rail" id="chapterRail" aria-label="Chapters">
+        <ol></ol>
+      </nav>
+
+      <div class="hero-foot">
+        <p class="hero-foot-left">© Serica Inc.<br><a href="#main-content">Terms of Service</a><br><a href="#main-content">Privacy Policy</a></p>
+        <p class="hero-foot-right">Painting, characters &amp; props: original. Type: Neue Montreal / HWCigars.</p>
+      </div>
+    </div>
+
+    <button class="scroll-cue" type="button" id="scrollCue" aria-label="Scroll to chapters">
+      <span></span><span class="scroll-cue-label">Scroll</span>
+    </button>
+  </section>
+
+  <!-- ==================================================== CHAPTERS 01 – 12 -->
+  <div id="chapters"></div>
+
+  <!-- ================================================= END · THE BOX / OUTRO -->
+  <section class="stage stage-outro" id="outro" data-stage="outro" data-theme="light" data-chapter="-1">
+    <div class="stage-media">
+      <img class="stage-art" src="img/art/hero.webp" alt="" loading="lazy" decoding="async" aria-hidden="true">
+      <div class="stage-scrim scrim-paper"></div>
+    </div>
+    <div class="outro-inner">
+      <p class="eyebrow"><span class="dot"></span> The box, unsealed</p>
+      <h2 class="outro-title">Every update,<br><em>one scroll.</em></h2>
+      <p class="outro-lede">Twelve chapters, 199 updates, one lacquer box. Take what is useful — the thinking, the palette, the pacing — and paint your own edition with it.</p>
+      <div class="outro-grid">
+        <div><b>150+</b><span>product updates</span></div>
+        <div><b>12</b><span>chapters in one scroll</span></div>
+        <div><b>1</b><span>saturated accent</span></div>
+        <div><b>0</b><span>external requests</span></div>
+      </div>
+      <div class="outro-cta">
+        <a class="btn-pill" href="#top">Back to the top</a>
+        <a class="btn-line btn-line--dark" href="#chapters">Replay the chapters <span aria-hidden="true">↺</span></a>
+      </div>
+      <p class="outro-note">A design study. Copy structure and interaction pattern follow the original Editions page; characters, props and paintings are new. Not affiliated with, endorsed by, or a redistribution of any brand’s artwork.</p>
+    </div>
+    <footer class="site-footer">
+      <span>Serica — The Lacquer Edition</span>
+      <span>Winter ’26</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </section>
+</main>
+
+<!-- ============================================================ SEARCH / ⌘K -->
+<div class="search" id="search" role="dialog" aria-modal="true" aria-labelledby="searchLabel" hidden>
+  <div class="search-box">
+    <div class="search-field">
+      <span id="searchLabel">Search editions</span>
+      <input id="searchInput" type="search" placeholder="chapter, feature, prop…" autocomplete="off">
+      <kbd>Esc</kbd>
+    </div>
+    <ul class="search-results" id="searchResults"></ul>
+    <p class="search-foot">↑ ↓ to move · ↵ to open · <kbd>/</kbd> or <kbd>⌘K</kbd> to toggle</p>
+  </div>
+</div>
+
+<!-- ================================================================ MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav" hidden>
+  <nav aria-label="Mobile">
+    <a href="#top">Overview</a>
+    <div id="mobileChapters"></div>
+    <a href="#outro">The box</a>
+  </nav>
+</div>
+
+<!-- chapter art preloader -->
+<script src="js/content.js"></script>
+<script src="js/serica.js"></script>
+</body>
+</html>

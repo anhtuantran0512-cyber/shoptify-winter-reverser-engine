@@ -89,6 +89,43 @@ class MirrorHandler(SimpleHTTPRequestHandler):
         self.send_header("Content-Length", "0")
         self.end_headers()
 
+    def _public_origin(self) -> str | None:
+        """The origin the browser used, whatever the proxy did to Host.
+
+        Reverse proxies in front of this server are not consistent: some pass
+        the public vhost through, some pass loopback. If we take a loopback
+        Host at face value the rewritten asset URLs point at the *viewer's*
+        own machine and nothing loads, so fall back through the evidence the
+        request carries: forwarded headers, then Referer, then the platform's
+        own hostname.
+        """
+        host = self.headers.get("Host", "")
+        fwd = self.headers.get("X-Forwarded-Host", "").split(",")[0].strip()
+        proto = self.headers.get("X-Forwarded-Proto", "").split(",")[0].strip()
+        loopback = ("127.0.0.1", "localhost", "0.0.0.0", "[::1]", "")
+
+        def is_local(h: str) -> bool:
+            return h.split(":")[0] in ("127.0.0.1", "localhost", "0.0.0.0", "[::1]") or not h
+
+        if fwd and not is_local(fwd):
+            return f"{proto or 'https'}://{fwd}"
+        if not is_local(host):
+            return f"{proto or 'https'}://{host}"
+        ref = self.headers.get("Referer", "")
+        if ref:
+            try:
+                from urllib.parse import urlsplit
+
+                parts = urlsplit(ref)
+                if parts.hostname and parts.hostname not in ("127.0.0.1", "localhost"):
+                    return f"{parts.scheme}://{parts.netloc}"
+            except ValueError:
+                pass
+        sandbox = os.environ.get("E2B_SANDBOX_ID")
+        if sandbox and self.server.server_address[1]:
+            return f"https://{self.server.server_address[1]}-{sandbox}.e2b.app"
+        return None
+
     def _serve_rebased(self) -> bool:
         """Serve a text file with the baked origin swapped for this request's."""
         path = self.path.split("?", 1)[0]
@@ -105,19 +142,13 @@ class MirrorHandler(SimpleHTTPRequestHandler):
             return False
 
         mtime = file.stat().st_mtime
-        key = (str(file), mtime, self.headers.get("Host", ""))
+        key = (str(file), mtime, self._public_origin() or BAKED)
         body = _cache.get(key)
         if body is None:
             text = file.read_text(errors="ignore")
-            host = self.headers.get("Host", "")
-            if host and BAKED.split("://", 1)[-1] != host:
-                scheme = (
-                    "http"
-                    if host.split(":")[0] in ("127.0.0.1", "localhost", "0.0.0.0")
-                    or host.startswith("[::1]")
-                    else "https"
-                )
-                text = text.replace(BAKED, f"{scheme}://{host}")
+            origin = self._public_origin()
+            if origin and origin != BAKED:
+                text = text.replace(BAKED, origin)
             body = text.encode()
             _cache[key] = body
 
@@ -145,6 +176,9 @@ class MirrorHandler(SimpleHTTPRequestHandler):
     def end_headers(self) -> None:
         # the bundles call fetch() on json/ktx2 across relative paths
         self.send_header("Access-Control-Allow-Origin", "*")
+        # if a proxy hands us a loopback Host, the Referer is the only place the
+        # real public origin shows up; don't let the browser strip it
+        self.send_header("Referrer-Policy", "unsafe-url")
         path = self.path.split("?", 1)[0]
         if path.startswith(("/assets/", "/vendor/", "/js/", "/css/")):
             # 60 MB of glb/ktx2/video: reloads must not refetch it every time
@@ -153,8 +187,22 @@ class MirrorHandler(SimpleHTTPRequestHandler):
             self.send_header("Cache-Control", "no-store")
         super().end_headers()
 
+    _logged = 0
+
     def log_message(self, fmt: str, *args) -> None:
         sys.stderr.write("%s %s\n" % (self.address_string(), fmt % args))
+        # First few document requests tell us how the proxy talks to us: which
+        # Host it passes, and whether the real origin rides on Referer /
+        # X-Forwarded-*. Logged once so a broken preview can be diagnosed
+        # without a browser inspector.
+        if type(self).__name__ == "MirrorHandler" and self.path.startswith("/editions/"):
+            if MirrorHandler._logged < 3:
+                MirrorHandler._logged += 1
+                keys = ("Host", "Referer", "X-Forwarded-Host", "X-Forwarded-Proto", "X-Real-IP")
+                hdrs = {k: self.headers.get(k) for k in keys if self.headers.get(k)}
+                sys.stderr.write(
+                    f"  proxy headers {hdrs} -> origin {self._public_origin()}\n"
+                )
 
 
 def main() -> None:

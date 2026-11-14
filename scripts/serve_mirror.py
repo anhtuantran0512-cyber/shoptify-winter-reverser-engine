@@ -85,6 +85,13 @@ class MirrorHandler(SimpleHTTPRequestHandler):
                 self.path = f"/{folder}/{name}"
                 return
 
+    def do_HEAD(self) -> None:  # noqa: N802
+        # proxied HEADs must not 404 the route the way a plain file server would
+        path = self.path.split("?", 1)[0]
+        if path in (PAGE_PATH, PAGE_PATH + "/"):
+            self.path = "/index.html"
+        return super().do_HEAD()
+
     def _redirect(self) -> None:
         # relative: must keep whatever host/proxy prefix the request came from
         self.send_response(302)
@@ -199,11 +206,19 @@ class MirrorHandler(SimpleHTTPRequestHandler):
         # real public origin shows up; don't let the browser strip it
         self.send_header("Referrer-Policy", "unsafe-url")
         path = self.path.split("?", 1)[0]
-        if path.startswith(("/assets/", "/vendor/", "/js/", "/css/")):
-            # 60 MB of glb/ktx2/video: reloads must not refetch it every time
-            self.send_header("Cache-Control", "public, max-age=604800")
+        immutable = (
+            path.startswith(("/assets/", "/vendor/"))
+            and not path.endswith(TEXT_SUFFIXES)
+            and not path.startswith("/assets/js/")
+        )
+        if immutable:
+            # pictures, models, textures, film: ~60 MB that never changes, but
+            # the URL is not content-hashed, so revalidate before reuse
+            self.send_header("Cache-Control", "public, max-age=604800, no-transform")
         else:
-            self.send_header("Cache-Control", "no-store")
+            # the document and every script/style: a stale copy here is a page
+            # that cannot boot, so never let the browser keep one
+            self.send_header("Cache-Control", "no-store, must-revalidate")
         super().end_headers()
 
     _logged = 0

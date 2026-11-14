@@ -1,5 +1,6 @@
 /* Serica — The Lacquer Edition. Chapter copy is the original Editions Winter '26 text,
-   kept verbatim; only the art, characters and props are new. Generated from snapshot/page-content.json. */
+   kept verbatim; only the art, characters and props are new.
+   Generated from snapshot/page-content.json. */
 window.SERICA = {
  "meta": {
   "title": "Serica Editions | Winter '26",
@@ -14,6 +15,8 @@ window.SERICA = {
    "kicker": "Sidekick",
    "title": "Sidekick",
    "lead": "The AI-powered Shopify expert who's just as obsessed with your business as you are.",
+   "tone": "ink",
+   "alt": "A masked writer works by candlelight in a blue room of constellations.",
    "art": "img/art/01-sidekick.webp",
    "features": [
     {
@@ -120,6 +123,8 @@ window.SERICA = {
    "kicker": "Agentic",
    "title": "Agentic",
    "lead": "Sell directly in AI chats with built-in tools that syndicate your products to every AI platform.",
+   "tone": "night",
+   "alt": "A scholar in a burgundy robe writes at a desk inside a library of silk scrolls.",
    "art": "img/art/02-agentic.webp",
    "features": [
     {
@@ -141,6 +146,8 @@ window.SERICA = {
    "kicker": "Online",
    "title": "Online",
    "lead": "Validate store changes with A/B testing and an AI tool that simulates shopping behavior.",
+   "tone": "ember",
+   "alt": "A painter in an ivory blouse works at an easel in a lacquered room.",
    "art": "img/art/03-online.webp",
    "features": [
     {
@@ -267,6 +274,8 @@ window.SERICA = {
    "kicker": "Retail",
    "title": "Retail",
    "lead": "New in-store hardware that provides unwavering reliability.",
+   "tone": "jade",
+   "alt": "A merchant shop at night: lacquer cabinet, abacus, celadon bowls.",
    "art": "img/art/04-retail.webp",
    "features": [
     {
@@ -363,6 +372,8 @@ window.SERICA = {
    "kicker": "Marketing",
    "title": "Marketing",
    "lead": "Grow your sales with a first-of-its-kind product network.",
+   "tone": "dawn",
+   "alt": "A lantern-lit market street at dawn with a magenta banner.",
    "art": "img/art/05-marketing.webp",
    "features": [
     {
@@ -439,6 +450,8 @@ window.SERICA = {
    "kicker": "Checkout",
    "title": "Checkout",
    "lead": "Convert customers with personalized checkout experiences and more payment options.",
+   "tone": "dusk",
+   "alt": "A woman in a green silk ao dai holds a magenta lacquer envelope beside a mountain lake.",
    "art": "img/art/06-checkout.webp",
    "features": [
     {
@@ -500,6 +513,8 @@ window.SERICA = {
    "kicker": "Operations",
    "title": "Operations",
    "lead": "Improve everyday workflows with flexible inventory modeling and trend-spotting analytics.",
+   "tone": "umber",
+   "alt": "A warehouse compound at night with crates, ropes and lanterns.",
    "art": "img/art/07-operations.webp",
    "features": [
     {
@@ -621,6 +636,8 @@ window.SERICA = {
    "kicker": "Shop app",
    "title": "Shop app",
    "lead": "Reach millions of high-intent shoppers with personalized buying experiences.",
+   "tone": "indigo",
+   "alt": "A night-market stall under paper lanterns with shoppers.",
    "art": "img/art/08-shop-app.webp",
    "features": [
     {
@@ -662,6 +679,8 @@ window.SERICA = {
    "kicker": "B2B",
    "title": "B2B",
    "lead": "Take your wholesale business global, discover new retailers, and get paid in more ways.",
+   "tone": "ochre",
+   "alt": "Two merchants plot a silk-road map by lamplight.",
    "art": "img/art/09-b2b.webp",
    "features": [
     {
@@ -743,6 +762,8 @@ window.SERICA = {
    "kicker": "Finance",
    "title": "Finance",
    "lead": "Modern financial tools designed for growing your business and getting that coin.",
+   "tone": "brass",
+   "alt": "A moneychanger table with coins, a balance, an abacus and a magenta cloth.",
    "art": "img/art/10-finance.webp",
    "features": [
     {
@@ -814,6 +835,8 @@ window.SERICA = {
    "kicker": "Shipping",
    "title": "Shipping",
    "lead": "Ship confidently and cheetah-fast with more label, partner, and carrier options.",
+   "tone": "mist",
+   "alt": "A junk ship leaves a misty karst harbour at dawn.",
    "art": "img/art/11-shipping.webp",
    "features": [
     {
@@ -860,6 +883,8 @@ window.SERICA = {
    "kicker": "Developer",
    "title": "Developer",
    "lead": "A completely new way to build for commerce with the power of AI.",
+   "tone": "paper",
+   "alt": "A sepia ink study of a young man's head surrounded by drawn diagrams.",
    "art": "img/art/12-developer.webp",
    "features": [
     {

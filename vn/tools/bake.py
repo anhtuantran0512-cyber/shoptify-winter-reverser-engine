@@ -55,9 +55,15 @@ GLB_SKINS: dict[str, dict[int, tuple[str, tuple[int, int]]]] = {
     "developer": {0: ("developer_vn.png", (2048, 2048))},
     # the chapters also load separate *_fg / *_bg models whose atlases are the
     # same artwork, so they reuse the painted files above
-    # NOTE: Operations_fg_* and B2B_fg_* are separate models with their own
-    # atlases (not the EW26_* layouts), so they need dedicated art; mapping the
-    # EW26_* paintings onto them smears the faces.
+    # Operations_fg_* carries the same five-figure composition as the EW26
+    # model, so the same painting serves both.
+    "operations_fg": {0: ("operations_vn.png", (2048, 2048))},
+    # B2B_fg_* is a different layout (two seated figures + heads), painted
+    # separately.
+    "b2b_fg": {
+        0: ("b2b_fg_vn.png", (2048, 2048)),
+        2: ("b2b_heads_vn.png", (1024, 512)),
+    },
     "online_fg": {2: ("online_vn.png", (2048, 2048))},
     "shipping_fg": {1: ("shipping_vn.png", (2048, 2048))},
     "marketing_fg": {0: ("marketing_vn.png", (2048, 2048))},
@@ -73,11 +79,25 @@ GLB_SKINS: dict[str, dict[int, tuple[str, tuple[int, int]]]] = {
 
 # atlases that are a figure painted on blank canvas: take the silhouette from
 # the painting instead of the capture, so no canvas texel reaches the edge
-ALPHA_MODE: dict[str, str] = {}
+# atlases that are figures painted on blank canvas: the silhouette comes from
+# the painting (measured canvas colour), never from the capture, or the blank
+# canvas leaks through the soft edge as a white halo.
+ALPHA_MODE: dict[str, str] = {
+    "checkout": "art",
+    "operations": "art",
+    "operations_fg": "art",
+    "b2b_fg": "art",
+    "shopapp": "art",
+    "finance": "art",
+    "finance_fg": "art",
+    "shipping": "art",
+    "shipping_fg": "art",
+    "b2b": "art",
+    "checkout_fg": "art",
+}
 # per (chapter, image index) override
 ALPHA_MODE_IDX: dict[tuple[str, int], str] = {
     ("hero", 1): "art",          # portrait heads: painted cut-out
-    ("b2b_fg", 2): "art",        # the same two heads
 }
 
 # sidecar .ktx2 backdrops are handled by vn/tools/bake_ktx.py (real Basis)
@@ -320,6 +340,7 @@ MODEL_FILES = {
     "shipping": "EW26_Shipping_251204_compressed-optimized.glb",
     "developer": "EW26_Developer_251207v5_compressed-optimized.glb",
     "operations_fg": "Operations_fg_smaller_251127_compressed-optimized.glb",
+    "b2b_fg": "B2B_fg_smaller_251127_compressed-optimizedv2.glb",
     "b2b_fg": "B2B_fg_smaller_251127_compressed-optimizedv2.glb",
     "online_fg": "Online_fg_smaller_251127_compressed-optimized.glb",
     "shipping_fg": "Shipping_fg_smaller_251127_compressed-optimized.glb",

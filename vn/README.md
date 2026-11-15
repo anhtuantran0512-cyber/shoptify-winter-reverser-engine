@@ -86,3 +86,58 @@ Vietnamese, and specifically:
 | Operations | five figures | Lê court dress in the same five poses |
 | Globe | equirect map | Vietnamese antique chart, dragon boats, hạc |
 | Shop app | rider | áo tứ thân rider, indigo saddle blanket, silk khăn vấn cap |
+
+## Re-skin status (verified in the browser)
+
+| Asset | State |
+|---|---|
+| `3d/EW26_Hero_251207v3` | done — 1.91 MB |
+| `3d/EW26_Sidekick_251208` | done — 4.46 MB |
+| `3d/EW26_Agentic_Props_251209v5` | done |
+| `3d/Agentic_fg_251209` | done |
+| `3d/EW26_Retail_mg_251205v2` | done |
+| `3d/POS_V53_environment_251209v2` | done |
+| `3d/EW26_Marketing_251209v4` | done |
+| `3d/EW26_Checkout_251209` | done |
+| `3d/EW26_Operations_251207` | done |
+| `3d/Renaissance_Globe_251209v2` | done |
+| `3d/EW26_ShopApp_251208v3` | done |
+| `3d/EW26_B2B_251205v2` | done |
+| `3d/EW26_Finance_251208v2` | done |
+| `3d/EW26_Shipping_251204` | done |
+| `3d/EW26_Online_251209v3` | done |
+| `3d/EW26_Developer_251207v5` | done |
+| `textures/Hero-bg-hires` | done |
+| `textures/Online_bg-brighter…` | done |
+| `textures/Checkout_bg_diffuse` | done |
+| `textures/Shipping_bg_diffuse` | done |
+| `3d/Rigged_Book_CS_Animated_V5` | **todo** — 512² product-tile atlas |
+| `3d/Operations_fg_smaller` | **todo** — own atlas layout |
+| `3d/B2B_fg_smaller` | **todo** — own atlas layout |
+| `textures/B2B_Bg_Dark` | **todo** |
+| `textures/Finance_bg` | **todo** |
+| `textures/Developer_bg_diffuse` | **todo** |
+| `textures/Agentic_Bg_windowscene` | **todo** |
+| `textures/Operations_bg_diffuse` | **todo** |
+| `textures/ShopApp_bg_diffuse` | **todo** |
+| `textures/Marketing_bg_retouched_v3` | **todo** |
+| `textures/EW26_Sidekick_bg_stars` | **todo** — star field |
+| `3d/POS_v53_Hub_251208v2` | by design — AO bake + PCB, not artwork |
+| `textures/studio_small_09_1k.pmrem` | by design — lighting probe, not scenery |
+
+`serve_mirror.py` reloads `vn/assets/overlay.json` when it changes, so a
+chapter can be baked while the server is running and shows up on the next
+request. Restart only needed after editing the server itself.
+
+## Two failure modes worth remembering
+
+- **White halo on cut-out figures.** A generated atlas is opaque, so the blank
+  canvas around the painted subject leaks into the silhouette when the GPU
+  samples a mipmap of the texture. `_art_alpha()` takes the silhouette from the
+  painting (distance from the *measured* canvas colour, not an assumed white)
+  multiplied by the capture's feathered alpha, and `_bleed()` fills the soft
+  edge with the subject's own colour. The alpha is then two-pass cleaned by
+  `_clean_rim()` for atlases whose art already carries transparency.
+- **A stale overlay map.** Re-baking rewrites `overlay.json`; a server that
+  read it at start-up keeps serving the captured asset and the page looks
+  unchanged even though the GLB on disk is correct.

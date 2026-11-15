@@ -42,6 +42,28 @@ GLB_SKINS: dict[str, dict[int, tuple[str, tuple[int, int]]]] = {
         1: ("pos_env_dome_vn.png", (2048, 2048)),
     },
     "globe": {0: ("globe_vn.png", (1024, 512))},
+    "b2b": {
+        0: ("b2b_vn.png", (2048, 2048)),
+        1: ("b2b_heads_vn.png", (1024, 512)),
+    },
+    "finance": {
+        0: ("finance_tree_vn.png", (1024, 1024)),
+        1: ("finance_vn.png", (2048, 2048)),
+    },
+    "shipping": {0: ("shipping_vn.png", (2048, 2048))},
+    "online": {1: ("online_vn.png", (2048, 2048))},
+    "developer": {0: ("developer_vn.png", (2048, 2048))},
+}
+
+# atlases that are a figure painted on blank canvas: take the silhouette from
+# the painting instead of the capture, so no canvas texel reaches the edge
+ALPHA_MODE: dict[str, str] = {
+    "hero": "art",
+    "sidekick": "art",
+    "checkout": "art",
+    "operations": "art",
+    "shopapp": "art",
+    "b2b": "art",
 }
 
 # sidecar .ktx2 backdrops are handled by vn/tools/bake_ktx.py (real Basis)
@@ -58,8 +80,96 @@ def _buffer(glb: bytes) -> tuple[dict, bytes]:
     return j, glb[28 + clen : 28 + clen + binlen]
 
 
+def _bleed(rgb, known, radius: int = 24):
+    """Replace unknown colour with the nearest known colour (blur/divide).
+
+    A cut-out atlas is sampled with mipmaps, so whatever colour sits in the
+    texels just outside the silhouette gets averaged into the edge -- painted
+    white canvas there shows up as a bright halo on screen. Growing the
+    figure's own colour outward (premultiplied blur divided by a blurred
+    coverage mask) removes the halo without touching the alpha channel.
+    """
+    from PIL import Image, ImageFilter
+
+    k = known.filter(ImageFilter.GaussianBlur(radius))
+    kp = k.point(lambda v: max(v, 1))
+    premul = Image.composite(rgb, Image.new("RGB", rgb.size, (0, 0, 0)), known)
+    del kp
+    import numpy as np
+
+    num = np.asarray(premul.filter(ImageFilter.GaussianBlur(radius)), dtype=np.float32)
+    den = np.asarray(k, dtype=np.float32)[..., None]
+    est = num / np.maximum(den, 1.0)
+    est = np.clip(est, 0, 255)
+    orig = np.asarray(rgb, dtype=np.float32)
+    m = np.asarray(known, dtype=bool)[..., None]
+    out = np.where(m, orig, est)
+    return Image.fromarray(out.astype("uint8"), "RGB")
+
+
+def _art_alpha(im, capture_alpha):
+    """Silhouette from the painting: pixels far from the canvas colour."""
+    import numpy as np
+    from PIL import Image, ImageFilter
+
+    rgb = np.asarray(im.convert("RGB"), dtype=np.float32) / 255.0
+    # The blank canvas is not always pure white: measure the most common very
+    # light colour and treat that as the background reference.
+    flat = rgb.reshape(-1, 3)
+    light = flat[flat.min(axis=1) > 0.80]
+    if len(light) < 1000:
+        light = flat[flat.min(axis=1) > 0.65]
+    canvas = np.median(light, axis=0) if len(light) else np.ones(3)
+    dist = np.abs(rgb - canvas).max(axis=2)
+    ramp = np.clip((dist - 0.030) / 0.070, 0.0, 1.0)
+    a = (ramp * 255).astype("uint8")
+    mask = Image.fromarray(a, "L").filter(ImageFilter.GaussianBlur(0.7))
+    # multiply by the capture's own (feathered) alpha rather than clipping to
+    # a binary threshold: keeps the anti-aliased hair and hem edges smooth
+    ca = np.asarray(capture_alpha, dtype=np.float32) / 255.0
+    # the capture alpha is exact inside the figure; normalise the soft rim
+    ca = np.clip(ca / 0.85, 0.0, 1.0)
+    mask = Image.fromarray(
+        (np.asarray(mask, dtype=np.float32) * ca).astype("uint8"), "L"
+    ).filter(ImageFilter.GaussianBlur(1.2))
+    # bleed the subject's colour under the soft edge so mipmaps cannot pull
+    # the blank canvas into the silhouette
+    solid = mask.point(lambda v: 255 if v >= 250 else 0)
+    rgb = _bleed(im.convert("RGB"), solid)
+    out = rgb.convert("RGBA")
+    out.putalpha(mask)
+    return out
+
+
+def _clean_rim(im):
+    """Erode a cut-out's alpha by a pixel and bleed colour underneath it.
+
+    Hand-assembled cut-out art can carry a light rim *inside* the alpha
+    channel (the paint's own light edge).  Shrinking by one texel and filling
+    the vacated colour from the subject stops mipmaps turning that rim into a
+    white halo.
+    """
+    from PIL import Image, ImageFilter
+
+    import numpy as np
+
+    a = im.getchannel("A")
+    solid = a.point(lambda v: 255 if v >= 250 else 0).filter(ImageFilter.MinFilter(5))
+    rgb = _bleed(im.convert("RGB"), solid)
+    a = a.filter(ImageFilter.MinFilter(5)).filter(ImageFilter.GaussianBlur(0.8))
+    # every texel that is not fully opaque gets the *subject's* colour: paint
+    # tips and wisps keep their alpha but stop carrying the blank canvas
+    av = np.asarray(a, dtype=np.float32)
+    base = np.asarray(rgb, dtype=np.float32)
+    orig = np.asarray(im.convert("RGB"), dtype=np.float32)
+    keep = (av >= 249.5)[..., None]
+    out = Image.fromarray(np.where(keep, orig, base).astype("uint8"), "RGB").convert("RGBA")
+    out.putalpha(a)
+    return out
+
+
 def _fit(
-    art: Path, size: tuple[int, int], capture: Path | None = None
+    art: Path, size: tuple[int, int], capture: Path | None = None, alpha: str = "capture"
 ) -> tuple[bytes, str]:
     """Art -> (encoded bytes, mime) at the captured texture size.
 
@@ -69,17 +179,35 @@ def _fit(
     """
     from io import BytesIO
 
-    from PIL import Image
+    from PIL import Image, ImageFilter
 
     im = Image.open(art).convert("RGBA")
     if im.size != size:
         im = im.resize(size, Image.LANCZOS)
+    if im.getchannel("A").getextrema()[0] < 250:
+        im = _clean_rim(im)
     if capture and capture.exists():
         cap = Image.open(capture)
         if "A" in cap.getbands() and cap.getchannel("A").getextrema()[0] < 250:
-            if im.getchannel("A").getextrema()[0] >= 250:  # art is fully opaque
-                a = cap.getchannel("A")
-                im.putalpha(a if a.size == size else a.resize(size, Image.LANCZOS))
+            a = cap.getchannel("A")
+            if a.size != size:
+                a = a.resize(size, Image.LANCZOS)
+            if im.getchannel("A").getextrema()[0] >= 250:  # art is opaque
+                if alpha == "art":
+                    # The art is a figure painted on blank canvas.  Take the
+                    # silhouette from the painting itself (distance from the
+                    # canvas colour, the same ramp that cleared the hero's
+                    # hair halo) and intersect it with the captured alpha, so
+                    # canvas texels never render as a white fringe.
+                    im = _art_alpha(im, a)
+                else:
+                    # Non-figure cut-out (ragged painted panel): keep the
+                    # captured shape and colour-bleed the art into it.
+                    im = _bleed(im.convert("RGB"), a.point(lambda v: 255 if v >= 250 else 0))
+                    im = im.convert("RGBA")
+                    im.putalpha(a)
+            else:
+                im.putalpha(a)
     buf = BytesIO()
     if im.getchannel("A").getextrema()[0] < 255:
         # cut-out atlas: black the fully transparent texels so PNG compresses
@@ -94,7 +222,11 @@ def _fit(
 
 
 def repack_glb(
-    src: Path, dst: Path, replacements: dict[int, Path], capture: Path | None = None
+    src: Path,
+    dst: Path,
+    replacements: dict[int, Path],
+    capture: Path | None = None,
+    alpha: str = "capture",
 ) -> None:
     j, BIN = _buffer(src.read_bytes())
     views = j["bufferViews"]
@@ -103,7 +235,9 @@ def repack_glb(
         for i, v in enumerate(views)
     }
     for idx, (art, size) in replacements.items():
-        data, mime = _fit(art, size, capture / f"img{idx}.png" if capture else None)
+        data, mime = _fit(
+            art, size, capture / f"img{idx}.png" if capture else None, alpha
+        )
         payload[j["images"][idx]["bufferView"]] = data
         j["images"][idx]["mimeType"] = mime
         j["images"][idx].pop("extensions", None)
@@ -181,7 +315,10 @@ def bake(name: str) -> None:
         }
         if reps:
             cap = ROOT / "vn" / "work" / name
-            repack_glb(src, OUT / "3d" / src.name, reps, cap if cap.is_dir() else None)
+            repack_glb(
+                src, OUT / "3d" / src.name, reps,
+                cap if cap.is_dir() else None, ALPHA_MODE.get(name, "capture"),
+            )
 
 
 BASISU = Path("/tmp/basenc/package/bin/basisu")

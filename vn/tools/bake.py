@@ -53,17 +53,31 @@ GLB_SKINS: dict[str, dict[int, tuple[str, tuple[int, int]]]] = {
     "shipping": {0: ("shipping_vn.png", (2048, 2048))},
     "online": {1: ("online_vn.png", (2048, 2048))},
     "developer": {0: ("developer_vn.png", (2048, 2048))},
+    # the chapters also load separate *_fg / *_bg models whose atlases are the
+    # same artwork, so they reuse the painted files above
+    # NOTE: Operations_fg_* and B2B_fg_* are separate models with their own
+    # atlases (not the EW26_* layouts), so they need dedicated art; mapping the
+    # EW26_* paintings onto them smears the faces.
+    "online_fg": {2: ("online_vn.png", (2048, 2048))},
+    "shipping_fg": {1: ("shipping_vn.png", (2048, 2048))},
+    "marketing_fg": {0: ("marketing_vn.png", (2048, 2048))},
+    "checkout_fg": {0: ("checkout_vn.png", (2048, 2048))},
+    "finance_fg": {
+        0: ("finance_tree_vn.png", (512, 512)),
+        1: ("finance_vn.png", (2048, 2048)),
+    },
+    "checkout_bg": {0: ("ktx/Checkout_bg_diffuse-optimized_vn.png", (2048, 1024))},
+    "shipping_bg": {0: ("ktx/Shipping_bg_diffuse-optimized_vn.png", (2048, 2048))},
+    "marketing": {0: ("marketing_vn.png", (2048, 2048))},
 }
 
 # atlases that are a figure painted on blank canvas: take the silhouette from
 # the painting instead of the capture, so no canvas texel reaches the edge
-ALPHA_MODE: dict[str, str] = {
-    "hero": "art",
-    "sidekick": "art",
-    "checkout": "art",
-    "operations": "art",
-    "shopapp": "art",
-    "b2b": "art",
+ALPHA_MODE: dict[str, str] = {}
+# per (chapter, image index) override
+ALPHA_MODE_IDX: dict[tuple[str, int], str] = {
+    ("hero", 1): "art",          # portrait heads: painted cut-out
+    ("b2b_fg", 2): "art",        # the same two heads
 }
 
 # sidecar .ktx2 backdrops are handled by vn/tools/bake_ktx.py (real Basis)
@@ -227,6 +241,7 @@ def repack_glb(
     replacements: dict[int, Path],
     capture: Path | None = None,
     alpha: str = "capture",
+    chapter: str = "",
 ) -> None:
     j, BIN = _buffer(src.read_bytes())
     views = j["bufferViews"]
@@ -236,7 +251,10 @@ def repack_glb(
     }
     for idx, (art, size) in replacements.items():
         data, mime = _fit(
-            art, size, capture / f"img{idx}.png" if capture else None, alpha
+            art,
+            size,
+            capture / f"img{idx}.png" if capture else None,
+            ALPHA_MODE_IDX.get((chapter, idx), alpha),
         )
         payload[j["images"][idx]["bufferView"]] = data
         j["images"][idx]["mimeType"] = mime
@@ -301,6 +319,15 @@ MODEL_FILES = {
     "finance": "EW26_Finance_251208v2_compressed-optimized.glb",
     "shipping": "EW26_Shipping_251204_compressed-optimized.glb",
     "developer": "EW26_Developer_251207v5_compressed-optimized.glb",
+    "operations_fg": "Operations_fg_smaller_251127_compressed-optimized.glb",
+    "b2b_fg": "B2B_fg_smaller_251127_compressed-optimizedv2.glb",
+    "online_fg": "Online_fg_smaller_251127_compressed-optimized.glb",
+    "shipping_fg": "Shipping_fg_smaller_251127_compressed-optimized.glb",
+    "marketing_fg": "Marketing_fg_smaller_251127_compressed-optimized.glb",
+    "checkout_fg": "Checkout_fg_smaller_251127_compressed-optimized.glb",
+    "checkout_bg": "Checkout_bg_diffuse-optimized.glb",
+    "shipping_bg": "Shipping_bg_diffuse-optimized.glb",
+    "finance_fg": "finance_fg_smaller_251127_compressed-optimized.glb",
 }
 
 
@@ -317,7 +344,7 @@ def bake(name: str) -> None:
             cap = ROOT / "vn" / "work" / name
             repack_glb(
                 src, OUT / "3d" / src.name, reps,
-                cap if cap.is_dir() else None, ALPHA_MODE.get(name, "capture"),
+                cap if cap.is_dir() else None, ALPHA_MODE.get(name, "capture"), name,
             )
 
 

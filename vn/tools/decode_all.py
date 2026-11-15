@@ -36,6 +36,22 @@ CHAPTERS = {
     "finance": "EW26_Finance_251208v2_compressed-optimized.glb",
     "shipping": "EW26_Shipping_251204_compressed-optimized.glb",
     "developer": "EW26_Developer_251207v5_compressed-optimized.glb",
+    # foreground/bg models the chapters also load (different files from the
+    # *_fg / *_bg texture plates above)
+    "checkout_bg": "Checkout_bg_diffuse-optimized.glb",
+    "checkout_fg": "Checkout_fg_smaller_251127_compressed-optimized.glb",
+    "developer_bg": "Developer_bg_diffuse-optimized.glb",
+    "finance_bg": "Finance_bg_diffuse-optimized.glb",
+    "marketing_fg": "Marketing_fg_smaller_251127_compressed-optimized.glb",
+    "online_fg": "Online_fg_smaller_251127_compressed-optimized.glb",
+    "operations_bg": "Operations_bg_diffuse-optimized.glb",
+    "operations_fg": "Operations_fg_smaller_251127_compressed-optimized.glb",
+    "shipping_bg": "Shipping_bg_diffuse-optimized.glb",
+    "shipping_fg": "Shipping_fg_smaller_251127_compressed-optimized.glb",
+    "shopapp_bg": "ShopApp_bg_diffuse-optimized.glb",
+    "finance_fg": "finance_fg_smaller_251127_compressed-optimized.glb",
+    "b2b_fg": "B2B_fg_smaller_251127_compressed-optimizedv2.glb",
+    "key": "key.glb",
 }
 
 

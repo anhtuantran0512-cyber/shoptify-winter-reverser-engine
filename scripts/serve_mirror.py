@@ -31,12 +31,25 @@ PAGE_PATH = "/editions/winter2026"
 # Optional re-skin layer: vn/assets/overlay.json maps a captured asset path to a
 # replacement in the repo. Absent file = serve the capture exactly as-is.
 _OVERLAY_FILE = Path(__file__).resolve().parent.parent / "vn" / "assets" / "overlay.json"
-try:
-    import json as _json
 
-    OVERLAY: dict[str, str] = _json.loads(_OVERLAY_FILE.read_text())
-except (OSError, ValueError):
-    OVERLAY = {}
+
+def _load_overlay() -> tuple[dict[str, str], float]:
+    """overlay.json maps captured asset paths to re-skinned replacements.
+
+    Re-baking rewrites the map while the server is running, so it is reloaded
+    whenever the file changes -- otherwise a chapter baked after start-up keeps
+    serving the captured asset and the page silently shows the old artwork.
+    """
+    import json
+
+    try:
+        mtime = _OVERLAY_FILE.stat().st_mtime
+        return json.loads(_OVERLAY_FILE.read_text()), mtime
+    except (OSError, ValueError):
+        return {}, 0.0
+
+
+OVERLAY, _OVERLAY_MTIME = _load_overlay()
 
 # must match the MIRROR_ORIGIN the mirror was built with
 # Empty unless the mirror was built with MIRROR_ORIGIN: the build emits
@@ -90,6 +103,13 @@ class MirrorHandler(SimpleHTTPRequestHandler):
 
     def _apply_overlay(self) -> bool:
         """Serve a re-skinned replacement, if the request matches one."""
+        global OVERLAY, _OVERLAY_MTIME
+        try:
+            mtime = _OVERLAY_FILE.stat().st_mtime
+        except OSError:
+            mtime = 0.0
+        if mtime != _OVERLAY_MTIME:
+            OVERLAY, _OVERLAY_MTIME = _load_overlay()
         if not OVERLAY:
             return False
         path, _, query = self.path.partition("?")

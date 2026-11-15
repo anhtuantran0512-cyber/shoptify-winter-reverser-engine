@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .DS_Store
 node_modules/
+
+# re-skin working files (regenerate with vn/tools/decode_all.py)
+vn/work/

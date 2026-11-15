@@ -30,12 +30,22 @@ GLB_SKINS: dict[str, dict[int, tuple[str, tuple[int, int]]]] = {
         1: ("hero_faces_vn.png", (1024, 512)),
     },
     "sidekick": {0: ("sidekick_vn.png", (2048, 2048))},
+    "agentic": {1: ("agentic_props_vn.png", (1024, 1024))},
+    "agentic_fg": {0: ("agentic_fg_vn.png", (2048, 1152))},
+    "marketing": {0: ("marketing_vn.png", (2048, 2048))},
+    "checkout": {0: ("checkout_vn.png", (2048, 2048))},
+    "operations": {0: ("operations_vn.png", (2048, 2048))},
+    "shopapp": {0: ("shopapp_vn.png", (2048, 2048))},
+    "retail": {0: ("retail_vn.png", (2048, 2048))},
+    "pos_env": {
+        0: ("pos_env_vn.png", (2048, 2048)),
+        1: ("pos_env_dome_vn.png", (2048, 2048)),
+    },
+    "globe": {0: ("globe_vn.png", (1024, 512))},
 }
 
-# sidecar .ktx2 backdrops -> art file (written as .png at the same size)
-KTX_SKINS: dict[str, str] = {
-    "textures/Hero-bg-hires-optimized.ktx2": "hero_bg_vn.png",
-}
+# sidecar .ktx2 backdrops are handled by vn/tools/bake_ktx.py (real Basis)
+KTX_SKINS: dict[str, str] = {}
 
 # ui images (plain <img>) -> art file
 IMG_SKINS: dict[str, str] = {}
@@ -48,8 +58,15 @@ def _buffer(glb: bytes) -> tuple[dict, bytes]:
     return j, glb[28 + clen : 28 + clen + binlen]
 
 
-def _fit(art: Path, size: tuple[int, int]) -> bytes:
-    """Art -> PNG bytes at the captured texture size."""
+def _fit(
+    art: Path, size: tuple[int, int], capture: Path | None = None
+) -> tuple[bytes, str]:
+    """Art -> (encoded bytes, mime) at the captured texture size.
+
+    When the captured atlas carried a cut-out alpha channel and the art is
+    opaque, the captured alpha is reused so UV islands keep their exact
+    silhouette (masks, holes, feathered edges) and only colour changes.
+    """
     from io import BytesIO
 
     from PIL import Image
@@ -57,12 +74,28 @@ def _fit(art: Path, size: tuple[int, int]) -> bytes:
     im = Image.open(art).convert("RGBA")
     if im.size != size:
         im = im.resize(size, Image.LANCZOS)
+    if capture and capture.exists():
+        cap = Image.open(capture)
+        if "A" in cap.getbands() and cap.getchannel("A").getextrema()[0] < 250:
+            if im.getchannel("A").getextrema()[0] >= 250:  # art is fully opaque
+                a = cap.getchannel("A")
+                im.putalpha(a if a.size == size else a.resize(size, Image.LANCZOS))
     buf = BytesIO()
-    im.save(buf, "PNG", optimize=True)
-    return buf.getvalue()
+    if im.getchannel("A").getextrema()[0] < 255:
+        # cut-out atlas: black the fully transparent texels so PNG compresses
+        rgb = im.convert("RGB")
+        rgb.paste((0, 0, 0), mask=im.getchannel("A").point(lambda v: 255 if v < 3 else 0))
+        rgb = rgb.convert("RGBA")
+        rgb.putalpha(im.getchannel("A"))
+        rgb.save(buf, "PNG", optimize=True)
+        return buf.getvalue(), "image/png"
+    im.convert("RGB").save(buf, "JPEG", quality=90, optimize=True, progressive=True)
+    return buf.getvalue(), "image/jpeg"
 
 
-def repack_glb(src: Path, dst: Path, replacements: dict[int, Path]) -> None:
+def repack_glb(
+    src: Path, dst: Path, replacements: dict[int, Path], capture: Path | None = None
+) -> None:
     j, BIN = _buffer(src.read_bytes())
     views = j["bufferViews"]
     payload = {
@@ -70,9 +103,9 @@ def repack_glb(src: Path, dst: Path, replacements: dict[int, Path]) -> None:
         for i, v in enumerate(views)
     }
     for idx, (art, size) in replacements.items():
-        png = _fit(art, size)
-        payload[j["images"][idx]["bufferView"]] = png
-        j["images"][idx]["mimeType"] = "image/png"
+        data, mime = _fit(art, size, capture / f"img{idx}.png" if capture else None)
+        payload[j["images"][idx]["bufferView"]] = data
+        j["images"][idx]["mimeType"] = mime
         j["images"][idx].pop("extensions", None)
 
     for t in j.get("textures", []):
@@ -118,6 +151,22 @@ def repack_glb(src: Path, dst: Path, replacements: dict[int, Path]) -> None:
 MODEL_FILES = {
     "hero": "EW26_Hero_251207v3_compressed-optimized.glb",
     "sidekick": "EW26_Sidekick_251208_compressed-optimized.glb",
+    "agentic": "EW26_Agentic_Props_251209v5_compressed-optimized.glb",
+    "agentic_fg": "Agentic_fg_251209_compressed-optimized.glb",
+    "book": "Rigged_Book_CS_Animated_V5_compressed-optimized.glb",
+    "online": "EW26_Online_251209v3_compressed-optimized.glb",
+    "retail": "Retail_mg_251205v2_compressed-optimized.glb",
+    "pos_env": "POS_V53_environment_251209v2_compressed-optimized.glb",
+    "pos_hub": "POS_v53_Hub_251208v2_compressed-optimized.glb",
+    "marketing": "EW26_Marketing_251209v4_compressed-optimized.glb",
+    "checkout": "EW26_Checkout_251209_compressed-optimized.glb",
+    "operations": "EW26_Operations_251207_compressed-optimized.glb",
+    "globe": "Renaissance_Globe_251209v2-optimized.glb",
+    "shopapp": "EW26_ShopApp_251208v3_compressed-optimized.glb",
+    "b2b": "EW26_B2B_251205v2_compressed-optimized.glb",
+    "finance": "EW26_Finance_251208v2_compressed-optimized.glb",
+    "shipping": "EW26_Shipping_251204_compressed-optimized.glb",
+    "developer": "EW26_Developer_251207v5_compressed-optimized.glb",
 }
 
 
@@ -131,17 +180,41 @@ def bake(name: str) -> None:
             if (ART / f).exists()
         }
         if reps:
-            repack_glb(src, OUT / "3d" / src.name, reps)
+            cap = ROOT / "vn" / "work" / name
+            repack_glb(src, OUT / "3d" / src.name, reps, cap if cap.is_dir() else None)
+
+
+BASISU = Path("/tmp/basenc/package/bin/basisu")
 
 
 def bake_ktx() -> None:
+    """Encode the backdrop art as real Basis KTX2.
+
+    The page hands this file to KTX2Loader, so it has to be an actual
+    supercompressed texture: a PNG behind a .ktx2 name stalls the preloader on
+    a black screen instead of failing loudly.
+    """
+    import subprocess
+    import tempfile
+
     for rel, art in KTX_SKINS.items():
-        p, a = ROOT / "assets" / rel, ART / art
-        if a.exists():
-            dst = OUT / "ktx" / Path(rel).name
-            dst.parent.mkdir(parents=True, exist_ok=True)
-            dst.write_bytes(a.read_bytes())
-            print(f"  ktx2 {dst.relative_to(ROOT)} (from {art})")
+        a = ART / art
+        if not a.exists():
+            continue
+        dst = OUT / "ktx" / Path(rel).name
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        with tempfile.TemporaryDirectory() as tmp:
+            png = Path(tmp) / "in.png"
+            png.write_bytes(a.read_bytes())
+            subprocess.run(
+                [
+                    str(BASISU), "-ktx2", "-q", "255", "-mipmap",
+                    "-output_file", str(dst), str(png),
+                ],
+                check=True,
+                capture_output=True,
+            )
+        print(f"  ktx2 {dst.relative_to(ROOT)} ({dst.stat().st_size} B, from {art})")
 
 
 if __name__ == "__main__":

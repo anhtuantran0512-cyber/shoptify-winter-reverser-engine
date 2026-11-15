@@ -28,6 +28,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent / "mirror"
 PAGE_PATH = "/editions/winter2026"
 
+# Optional re-skin layer: vn/assets/overlay.json maps a captured asset path to a
+# replacement in the repo. Absent file = serve the capture exactly as-is.
+_OVERLAY_FILE = Path(__file__).resolve().parent.parent / "vn" / "assets" / "overlay.json"
+try:
+    import json as _json
+
+    OVERLAY: dict[str, str] = _json.loads(_OVERLAY_FILE.read_text())
+except (OSError, ValueError):
+    OVERLAY = {}
+
 # must match the MIRROR_ORIGIN the mirror was built with
 # Empty unless the mirror was built with MIRROR_ORIGIN: the build emits
 # root-relative URLs, so nothing needs rebasing and the page works behind any
@@ -64,10 +74,37 @@ class MirrorHandler(SimpleHTTPRequestHandler):
             # is a blank page. Send the browser to the real route instead.
             self._redirect()
             return
+        if self._apply_overlay():
+            return super().do_GET()
+        if path.startswith("/vn/"):
+            # re-skin payloads live beside mirror/, not inside it
+            self.directory = str(ROOT.parent)
+            self._overlaid = True
+            return super().do_GET()
         self._alias_chunk()
         if self._serve_rebased():
             return
         return super().do_GET()
+
+    _overlaid = False
+
+    def _apply_overlay(self) -> bool:
+        """Serve a re-skinned replacement, if the request matches one."""
+        if not OVERLAY:
+            return False
+        path, _, query = self.path.partition("?")
+        target = OVERLAY.get(path)
+        if not target:
+            return False
+        file = (ROOT.parent / target.lstrip("/")).resolve()
+        if not file.is_file():
+            return False
+        self.path = "/" + target.lstrip("/")
+        self.directory = str(ROOT.parent)
+        self._overlaid = True
+        if query:
+            self.path += "?" + query
+        return True
 
     def _alias_chunk(self) -> None:
         """`/assets/<chunk>.js` -> `/js/<chunk>.js` (also `.css` -> `/css/`).
@@ -198,7 +235,9 @@ class MirrorHandler(SimpleHTTPRequestHandler):
     def send_head(self):  # noqa: N802
         # Unknown paths are routes of the same SPA, not missing files: hand
         # them the document and let the router render, instead of a 404 page.
-        if not self.path.startswith(("/assets/", "/js/", "/css/", "/vendor/")):
+        if self._overlaid:
+            return super().send_head()
+        if not self.path.startswith(("/assets/", "/js/", "/css/", "/vendor/", "/vn/")):
             if not (ROOT / self.path.split("?", 1)[0].lstrip("/")).exists():
                 self._redirect()
                 return None

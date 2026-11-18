@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CAMOFOX = "./.npm-global/bin/camofox"
+CAMOFOX = os.environ.get("CAMOFOX", "camofox")
 TAB = sys.argv[1] if len(sys.argv) > 1 else "08c2c8ab-0124-4fa4-a4ec-0e084009a28b"
 
 js = (ROOT / "scripts" / "extract_page.js").read_text()

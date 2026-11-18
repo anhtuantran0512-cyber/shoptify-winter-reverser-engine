@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Capture one reference screenshot per section from the live Camofox tab.
 set -euo pipefail
-CAMOFOX="./.npm-global/bin/camofox"
+CAMOFOX="${CAMOFOX:-camofox}"
 TAB="${1:?tab id}"
 OUT="${2:-$(pwd)/snapshot/screenshots}"
 mkdir -p "$OUT"

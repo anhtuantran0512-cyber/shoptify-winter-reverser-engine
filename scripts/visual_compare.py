@@ -17,7 +17,7 @@ from pathlib import Path
 from PIL import Image, ImageChops
 
 OUT = Path("/tmp/mirror-qa")
-CF = "./.npm-global/bin/camofox"
+CF = os.environ.get("CAMOFOX", "camofox")
 LIVE = "https://www.shopify.com/editions/winter2026"
 MIRROR = "http://127.0.0.1:4174/editions/winter2026"
 FRAMES = int(sys.argv[1]) if len(sys.argv) > 1 else 6
